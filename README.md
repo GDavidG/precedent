@@ -5,7 +5,9 @@ Incentivizing arbitrators and parties to voluntarily opt for publication of arbi
 
 Bootstrapping a million new legal systems.
 
-Three felonies a day, ignorance of the law(rational ignorance, Somin),
+"Only polycentric law can keep up with that most polycentric of networks, the Internet." - Tom. W. Bell, Polycentric Law in the New Millennium (http://www.tomwbell.com/writings/FAH.html)
+
+Three felonies a day, ignorance of the law(rational ignorance 1.what laws are in my interest, 2. What is the my congressman doing? (your vote is very unlikely to alter the result of any given election, Somin),
 
 
 Recognition. Recognition of law was based on kinship and contractual reciprocities motivated by the ebenfits of individual rights and private property. Indeed, a "mental codification of abstract rules" existed, so that legal decisions were part of a "going order"(Benson, Citing Popisil, Anthropology of Law: A Comparative Theory). Grammatical phrases or references to soecific customs, precedents, or rules were present in all adjudication decisions that Popisil observed. He concluded: "not only does a legal decision solve a specific case, but it also formulates an ideal - a solution intended to be utilized in a similar situation in the future. The ideal component binds all other members of the group who did not particiapte in the case under consideration. The [adjudicator] himself turns to his previous decisions for consistency. In a way, they also bind him. Lawyers speak in such a case about thw binding force of the precedent."(Id.)
