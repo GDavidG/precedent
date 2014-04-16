@@ -9,6 +9,16 @@ Bootstrapping a million new legal systems.
 
 Three felonies a day, ignorance of the law(rational ignorance 1.what laws are in my interest, 2. What is the my congressman doing? (your vote is very unlikely to alter the result of any given election, Somin),
 
+Table of Contents
+=========
+1. History
+2. Precedent Protocol/PrecedentCoin
+3. Considerations
+4. Conclusion
+
+
+History
+=========
 
 Recognition. Recognition of law was based on kinship and contractual reciprocities motivated by the ebenfits of individual rights and private property. Indeed, a "mental codification of abstract rules" existed, so that legal decisions were part of a "going order"(Benson, Citing Popisil, Anthropology of Law: A Comparative Theory). Grammatical phrases or references to soecific customs, precedents, or rules were present in all adjudication decisions that Popisil observed. He concluded: "not only does a legal decision solve a specific case, but it also formulates an ideal - a solution intended to be utilized in a similar situation in the future. The ideal component binds all other members of the group who did not particiapte in the case under consideration. The [adjudicator] himself turns to his previous decisions for consistency. In a way, they also bind him. Lawyers speak in such a case about thw binding force of the precedent."(Id.)
 
@@ -51,3 +61,7 @@ Furthermore, such institutions are likely to arise if they generate substantial 
 (This has yet to really touch on Law Making, and the preferability of evolutionary customary law generally)
 
 
+
+There is another reason for demanding clear, well founded decisions. Smith referred to it as the "verificiation aspect." In order to satisfactorily end a dispute the decision must be acceptable-verifiable-not just ot the victim and offender but also to the groups or firms representing these parties and groups that might be drawn into a confrontation with one of the groups involved in the dispute. The willingness of other firms and organizations to enter into and honor reciprocal arrangements, such as extraditioncontracts, with those involved in the dispute depends in part on the wat this and other disputes are handled. If an organization's disputes are submitted to judges whose opinions are not clear and well founded, then that organization will have problems influencing the chouce of a judge and otherwise supporting their clientele in non-internal disputes. 
+
+Smith predicted that private courts would have to 1. allow citizen access to trials so third parties could observe proceedings (exceptions could arise if the parties in the suit had strong demands for privacy), 2. make details of that court's procedures accessible to any interested third party, and 3. make accurate records of a trial available to anyone who might want to review them. These predictions certainly seem to be supported by most historical examples of private courts. Popsil's description of trial procedures among the pimitive Kapauku, for instance, stressed the "public" nature of trials and the efforts that the tonowi took to firmly establish legal precedent for the solution to a dispute. Similarly, the medieval Icelandic, Anglo-Saxon, and Law Merchant courts were public forums. Even though a well publicized aspect of modern arbitrartion and rent-a-judge systems is their secrecy, this does not necessarily contracdict Smith or the historical evidence that supports him. After all, what we see today is a relatively limited sytem of private courts. Those disputants who have a strong desire for privacy cannot get it from public courts, so they may have the strongest incentives to employ private courts today. Under complete privitization, there will be many disputes that demand clear decisions for public scrutiny.
