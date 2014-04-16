@@ -65,3 +65,26 @@ Furthermore, such institutions are likely to arise if they generate substantial 
 There is another reason for demanding clear, well founded decisions. Smith referred to it as the "verificiation aspect." In order to satisfactorily end a dispute the decision must be acceptable-verifiable-not just ot the victim and offender but also to the groups or firms representing these parties and groups that might be drawn into a confrontation with one of the groups involved in the dispute. The willingness of other firms and organizations to enter into and honor reciprocal arrangements, such as extraditioncontracts, with those involved in the dispute depends in part on the wat this and other disputes are handled. If an organization's disputes are submitted to judges whose opinions are not clear and well founded, then that organization will have problems influencing the chouce of a judge and otherwise supporting their clientele in non-internal disputes. 
 
 Smith predicted that private courts would have to 1. allow citizen access to trials so third parties could observe proceedings (exceptions could arise if the parties in the suit had strong demands for privacy), 2. make details of that court's procedures accessible to any interested third party, and 3. make accurate records of a trial available to anyone who might want to review them. These predictions certainly seem to be supported by most historical examples of private courts. Popsil's description of trial procedures among the pimitive Kapauku, for instance, stressed the "public" nature of trials and the efforts that the tonowi took to firmly establish legal precedent for the solution to a dispute. Similarly, the medieval Icelandic, Anglo-Saxon, and Law Merchant courts were public forums. Even though a well publicized aspect of modern arbitrartion and rent-a-judge systems is their secrecy, this does not necessarily contracdict Smith or the historical evidence that supports him. After all, what we see today is a relatively limited sytem of private courts. Those disputants who have a strong desire for privacy cannot get it from public courts, so they may have the strongest incentives to employ private courts today. Under complete privitization, there will be many disputes that demand clear decisions for public scrutiny.
+
+
+Precedent Protocol/PrecedentCoin
+=========
+
+PrecedentCoins are the incentivization mechanism underlying the Precedent Protocol. The Precedent Protocol is x. PrecedentCoin solve xxx...
+
+
+
+Mechanics
+=========
+
+Arbitrators can opt to require PrecedentCoins from their customers in order to support the PrecedentProtocol. If done in accordance with the requirements of the Precedent Protocol, arbitrators can then be awarded additional PrecedentCoins upon the publication of their decision in a given dispute. One can imagine the following example of this mechanism in action.
+
+A and B have a contractual arrangement stipulating that disputes will be heard by an Arbitrator called C. Their agreement also stipulated that they would pay the arbitrator some fee, a portion of which must be paid in PrecedentCoin 
+Now, A has suffered some injury as a result of Bs conduct. (A cannot resort to resititutive measures against B on his own, as doing so may be construed as an initiaion of force against B, thus A, as previously agreed, brings his dispute to Arbitrator C for resoltuion in line with C's prior decisions). 
+
+
+
+
+
+
+
