@@ -72,6 +72,26 @@ Precedent Protocol/PrecedentCoin
 
 PrecedentCoins are the incentivization mechanism underlying the Precedent Protocol. The Precedent Protocol is x. PrecedentCoin solve xxx...
 
+Proof of Precedent (PoP)
+=========
+
+
+
+
+Supply & Initial Distribution
+=========
+
+Total Number of PrecedentCoin - 21,000,000,000          9,223,372,036,854,775,807
+
+First Pool of Arbitrators     - 5% - 1,050,000,000        461,168,601,842,738,790
+Kickstarter                   - 15% - 3,150,000,000     1,383,505,805,528,216,371
+Proof of Precedent            - 80% - 16,800,000,000    7,378,697,629,483,820,646
+
+In addition to a number of PrecedentCoin transferred from the parties to the arbitrator, an arbitrator is also awarded a number of PrecedentCoins for arbitral outcome which meet the requirements for Proof of Precedent (PoP) 
+
+
+
+
 
 
 Mechanics
@@ -81,6 +101,8 @@ Arbitrators can opt to require PrecedentCoins from their customers in order to s
 
 A and B have a contractual arrangement stipulating that disputes will be heard by an Arbitrator called C. Their agreement also stipulated that they would pay the arbitrator some fee, a portion of which must be paid in PrecedentCoin 
 Now, A has suffered some injury as a result of Bs conduct. (A cannot resort to resititutive measures against B on his own, as doing so may be construed as an initiaion of force against B, thus A, as previously agreed, brings his dispute to Arbitrator C for resoltuion in line with C's prior decisions). 
+
+
 
 
 
