@@ -115,7 +115,7 @@ Other Considerations
 Future Development 
 - Search and Shepardization
 - Arbitrator specific coins?
-- bitrated..com and trustbit.com integration
+- bitrated.com and trustbit.com integration
 
 
 
