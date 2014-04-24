@@ -72,7 +72,8 @@ Precedent Protocol/PrecedentCoin
 
 PrecedentCoins are the incentivization mechanism underlying the Precedent Protocol. The Precedent Protocol is x. PrecedentCoin solve xxx...
 
-
+Bonding Requirements
+=========
 
 
 
@@ -81,8 +82,23 @@ Proof of Precedent (PoP)
 
 Publication Requirements - Publish to at least three venues? (MaidSafe, Pastebin, Throww?) Bonus for additional publication?
 
-Reputation - 
 
+Reputation 
+=========
+An Evidential Model of Reputation Management Systems employing Dempster–Shafer theory (DST) belief functions. Other models may be considered.
+
+see: 
+http://www.cs.cmu.edu/~byu/papers/p406-yu.pdf
+http://www.cs.ncsu.edu/faculty/mpsingh/papers/mas/aamas-03-deception.pdf
+http://en.wikipedia.org/wiki/Dempster%E2%80%93Shafer_theory 
+
+
+Process
+=========
+
+1. A contract with sufficient offer, consideration, and acceptance is entered into by the parties. Within this agreement is an arbitration clause specifying an arbitrator(a third-party) who will adjudicate the contract in the event of a dispute between the parties. The arbitration clause also contains a provision requiring adherence to Precedent Protocol in the event of a dispute (publication, fee disbursal, legitimacy voting etc.). Agreement is hashed in the Bitcoin blockchain via Proof of Existence (http://www.proofofexistence.com/about)
+
+2.
 
 
 
