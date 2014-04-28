@@ -10,12 +10,12 @@ Bootstrapping a million new legal systems.
 Three felonies a day, ignorance of the law(rational ignorance 1.what laws are in my interest, 2. What is the my congressman doing? (your vote is very unlikely to alter the result of any given election, Somin)
 <br>
 <br>
-Table of Contents
-=========
-<br>
-1. **<i class="icon-share"></i> [Background](#Background)**  
+## Table of Contents
 
-2. **<i class="icon-share"></i> [Precedent Protocol/PrecedentCoin](#Precedent Protocol/PrecedentCoin)**
+<br>
+1. **[Background](#Background)**  
+
+2. **[Precedent Protocol/PrecedentCoin](#Precedent Protocol/PrecedentCoin)**
 
     i. [Bonding Requirement](#Bonding Requirement)    
     
@@ -25,13 +25,13 @@ Table of Contents
     
     iv. [Supply & Initial Distribution](#Supply & Initial Distribution)
     
-3. **<i class="icon-share"></i> [Considerations](#Considerations)**
+3. **[Considerations](#Considerations)**
 
-4. **<i class="icon-share"></i> [Conclusion](#Conclusion)**
+4. **[Conclusion](#Conclusion)**
 <br>
 <br>
 
-# Background
+### Background
 
 Recognition. Recognition of law was based on kinship and contractual reciprocities motivated by the benfits of individual rights and private property. Indeed, a "mental codification of abstract rules" existed, so that legal decisions were part of a "going order"(Benson, Citing Popisil, Anthropology of Law: A Comparative Theory). Grammatical phrases or references to specific customs, precedents, or rules were present in all adjudication decisions that Popisil observed. He concluded: "not only does a legal decision solve a specific case, but it also formulates an ideal - a solution intended to be utilized in a similar situation in the future. The ideal component binds all other members of the group who did not particiapte in the case under consideration. The [adjudicator] himself turns to his previous decisions for consistency. In a way, they also bind him. Lawyers speak in such a case about the binding force of precedent."(Id.)
 
@@ -80,7 +80,7 @@ There is another reason for demanding clear, well founded decisions. Smith refer
 Smith predicted that private courts would have to 1. allow citizen access to trials so third parties could observe proceedings (exceptions could arise if the parties in the suit had strong demands for privacy), 2. make details of that court's procedures accessible to any interested third party, and 3. make accurate records of a trial available to anyone who might want to review them. These predictions certainly seem to be supported by most historical examples of private courts. Popsil's description of trial procedures among the pimitive Kapauku, for instance, stressed the "public" nature of trials and the efforts that the tonowi took to firmly establish legal precedent for the solution to a dispute. Similarly, the medieval Icelandic, Anglo-Saxon, and Law Merchant courts were public forums. Even though a well publicized aspect of modern arbitration and rent-a-judge systems is their secrecy, this does not necessarily contradict Smith or the historical evidence that supports him. After all, what we see today is a relatively limited system of private courts. Those disputants who have a strong desire for privacy cannot get it from public courts, so they may have the strongest incentives to employ private courts today. Under complete privatization, there will be many disputes that demand clear decisions for public scrutiny.
 
 
-# Precedent Protocol/PrecedentCoin
+### Precedent Protocol/PrecedentCoin
 <br>
 
 PrecedentCoins are the incentivization mechanism underlying the Precedent Protocol. The Precedent Protocol is a way for Arbitrators to be rewarded for publishing their decisions and contributing to the development of common law. PrecedentCoin attepts to solve the public goods problem of precedents in common law legal systems... 
@@ -95,17 +95,16 @@ WITNESS - An individual who has posted a bond. When an outcome is published by a
 
 PARTY - An individual who has posted a bond and submits an agreement to an ARBITRATOR. This agreement stipulates use of the Precedent Prtocol as a prerequisite for arbitrating the dispute. As such, PARTIES must remit payment of an amount of PrecedentCoin greater than or equal to the amount of the immediately prior PrecedentCoin reward (parties will typically split this cost 50/50, but it can be otherwise divided). 
 
-ARBITRATOR - An individual who has posted a bond, and stipulates use of the Precedent Protocol as a prerequisite for arbitrating disputes.
+ARBITRATOR - An individual who has posted a bond, and stipulates use of the Precedent Protocol as a prerequisite for arbitrating disputes. Following publication, an arbitral decision is subject to a vote of legitimacy by a pool of WITNESSES. If the outcome of the vote is affirmative as a legitimate outcome the ARBITRATOR is awarded with an amount of PrecedentCoin. The ARBITRATOR thus maintains a reputation within the Precedent Protocol reflective of the ability to publish bona fide precedents (Endogenous). Outside the Precedent Protocol ARBITRATORS will likely be scored or rated through other means, perhaps incorporating precedents published via the Precedent Protocol (Exogenous).
 
 
-# Bonding Requirement
+#### Bonding Requirement
 <br>
 
 Some Text here
 
 
-
-# Proof of Precedent (PoP)
+#### Proof of Precedent (PoP)
 <br>
 
 Some other text here
@@ -116,7 +115,7 @@ Some other text here
 Publication Requirements - Publish to at least three venues? (MaidSafe, Pastebin, Throww?) Bonus for additional publication?
 
 
-# Reputation 
+#### Reputation 
 <br>
 
 An Evidential Model of Reputation Management Systems employing Dempster–Shafer theory (DST) belief functions. Other models may be considered.
@@ -127,7 +126,7 @@ http://www.cs.ncsu.edu/faculty/mpsingh/papers/mas/aamas-03-deception.pdf
 http://en.wikipedia.org/wiki/Dempster%E2%80%93Shafer_theory 
 
 
-# Process
+#### Process
 <br>
 
 1. A contract with sufficient offer, consideration, and acceptance is entered into by the parties. Within this agreement is an arbitration clause specifying an arbitrator(a third-party) who will adjudicate the contract in the event of a dispute between the parties. The arbitration clause also contains a provision requiring adherence to Precedent Protocol in the event of a dispute (publication, fee disbursal, legitimacy voting etc.). Agreement is hashed in the Bitcoin blockchain via Proof of Existence (http://www.proofofexistence.com/about)
@@ -136,7 +135,7 @@ http://en.wikipedia.org/wiki/Dempster%E2%80%93Shafer_theory
 
 
 
-# Supply & Initial Distribution
+#### Supply & Initial Distribution
 <br>
 
 Total Number of PrecedentCoin - 21,000,000,000          9,223,372,036,854,775,807
@@ -159,7 +158,7 @@ A and B have a contractual arrangement stipulating that disputes will be heard b
 Now, A has suffered some injury as a result of Bs conduct. (A cannot resort to resititutive measures against B on his own, as doing so may be construed as an initiation of force against B, thus A, as previously agreed, brings his dispute to Arbitrator C for resoltution in line with C's prior decisions).
 
 
-# Future Considerations
+### Future Considerations
 <br>
 
 Future Development 
@@ -169,7 +168,7 @@ Future Development
 
 
 
-# Conclusion
+### Conclusion
 <br>
 
 
