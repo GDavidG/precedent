@@ -13,17 +13,17 @@ Three felonies a day, ignorance of the law(rational ignorance 1.what laws are in
 Table of Contents
 =========
 <br>
-1. **<i class="icon-share"></i> [Background](#Background) **  
+1. **<i class="icon-share"></i> [Background](#Background)**  
 
-2. **<i class="icon-share"></i> [Precedent Protocol/PrecedentCoin](#Precedent Protocol/PrecedentCoin) **
+2. **<i class="icon-share"></i> [Precedent Protocol/PrecedentCoin](#Precedent Protocol/PrecedentCoin)**
 
-    a. [Bonding Requirement](#Bonding Requirement)    
+    i. [Bonding Requirement](#Bonding Requirement)    
     
-    b. [Proof of Precedent (PoP)](#Proof of Precedent (PoP))
+    ii. [Proof of Precedent (PoP)](#Proof of Precedent (PoP))
     
-    c. [Reputation](#Reputation)
+    iii. [Reputation](#Reputation)
     
-    d. [Supply & Initial Distribution](#Supply & Initial Distribution)
+    iv. [Supply & Initial Distribution](#Supply & Initial Distribution)
     
 3. **<i class="icon-share"></i> [Considerations](#Considerations)**
 
@@ -32,7 +32,6 @@ Table of Contents
 <br>
 
 # Background
----------------
 
 Recognition. Recognition of law was based on kinship and contractual reciprocities motivated by the benfits of individual rights and private property. Indeed, a "mental codification of abstract rules" existed, so that legal decisions were part of a "going order"(Benson, Citing Popisil, Anthropology of Law: A Comparative Theory). Grammatical phrases or references to specific customs, precedents, or rules were present in all adjudication decisions that Popisil observed. He concluded: "not only does a legal decision solve a specific case, but it also formulates an ideal - a solution intended to be utilized in a similar situation in the future. The ideal component binds all other members of the group who did not particiapte in the case under consideration. The [adjudicator] himself turns to his previous decisions for consistency. In a way, they also bind him. Lawyers speak in such a case about the binding force of precedent."(Id.)
 
@@ -82,9 +81,9 @@ Smith predicted that private courts would have to 1. allow citizen access to tri
 
 
 # Precedent Protocol/PrecedentCoin
-=========
+<br>
 
-PrecedentCoins are the incentivization mechanism underlying the Precedent Protocol. The Precedent Protocol is x. PrecedentCoin solve xxx...
+PrecedentCoins are the incentivization mechanism underlying the Precedent Protocol. The Precedent Protocol is a way for Arbitrators to be rewarded for publishing their decisions and contributing to the development of common law. PrecedentCoin attepts to solve the public goods problem of precedents in common law legal systems... 
 
 
 
@@ -100,20 +99,26 @@ ARBITRATOR - An individual who has posted a bond, and stipulates use of the Prec
 
 
 # Bonding Requirement
-=========
+<br>
 
-
+Some Text here
 
 
 
 # Proof of Precedent (PoP)
-=========
+<br>
+
+Some other text here
+
+
+
 
 Publication Requirements - Publish to at least three venues? (MaidSafe, Pastebin, Throww?) Bonus for additional publication?
 
 
 # Reputation 
-=========
+<br>
+
 An Evidential Model of Reputation Management Systems employing Dempster–Shafer theory (DST) belief functions. Other models may be considered.
 
 see: 
@@ -123,7 +128,7 @@ http://en.wikipedia.org/wiki/Dempster%E2%80%93Shafer_theory
 
 
 # Process
-=========
+<br>
 
 1. A contract with sufficient offer, consideration, and acceptance is entered into by the parties. Within this agreement is an arbitration clause specifying an arbitrator(a third-party) who will adjudicate the contract in the event of a dispute between the parties. The arbitration clause also contains a provision requiring adherence to Precedent Protocol in the event of a dispute (publication, fee disbursal, legitimacy voting etc.). Agreement is hashed in the Bitcoin blockchain via Proof of Existence (http://www.proofofexistence.com/about)
 
@@ -132,7 +137,7 @@ http://en.wikipedia.org/wiki/Dempster%E2%80%93Shafer_theory
 
 
 # Supply & Initial Distribution
-=========
+<br>
 
 Total Number of PrecedentCoin - 21,000,000,000          9,223,372,036,854,775,807
 
@@ -146,7 +151,7 @@ In addition to a number of PrecedentCoin transferred from the parties to the arb
 
 
 Mechanics
-=========
+<br>
 
 Arbitrators can opt to require PrecedentCoins from their customers in order to support the PrecedentProtocol. If done in accordance with the requirements of the Precedent Protocol, arbitrators are then awarded additional PrecedentCoins upon the publication of their decision in a given dispute. One can imagine the following example of this mechanism in action.
 
@@ -155,7 +160,7 @@ Now, A has suffered some injury as a result of Bs conduct. (A cannot resort to r
 
 
 # Future Considerations
-=========
+<br>
 
 Future Development 
 - Search and Shepardization
@@ -165,7 +170,7 @@ Future Development
 
 
 # Conclusion
-=========
+<br>
 
 
 
