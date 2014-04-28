@@ -19,7 +19,7 @@ Table of Contents
 
     a. [Bonding Requirement](#Bonding Requirement)    
     
-    b. [Proof of Precedent (PoP)](#Proof of Precedent (PoP)
+    b. [Proof of Precedent (PoP)](#Proof of Precedent (PoP))
     
     c. [Reputation](#Reputation)
     
