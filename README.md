@@ -17,13 +17,13 @@ Three felonies a day, ignorance of the law(rational ignorance 1.what laws are in
 
 2. [Precedent Protocol/PrecedentCoin](#Precedent Protocol/PrecedentCoin)
     
-i. [Bonding Requirement](#Bonding Requirement)    
+    i. [Bonding Requirement](#Bonding Requirement)    
     
-ii. [Proof of Precedent (PoP)](#Proof of Precedent (PoP))
+    ii. [Proof of Precedent (PoP)](#Proof of Precedent (PoP))
     
-iii. [Reputation](#Reputation)
+    iii. [Reputation](#Reputation)
     
-iv. [Supply & Initial Distribution](#Supply & Initial Distribution)
+    iv. [Supply & Initial Distribution](#Supply & Initial Distribution)
     
 3. [Considerations](#Considerations)
 
