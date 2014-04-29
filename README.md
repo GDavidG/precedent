@@ -13,21 +13,21 @@ Three felonies a day, ignorance of the law(rational ignorance 1.what laws are in
 ## Table of Contents
 
 <br>
-1. **[Background](#Background)**  
+1.** [Background](#Background)**  
 
-2. **[Precedent Protocol/PrecedentCoin](#Precedent Protocol/PrecedentCoin)**
+2.** [Precedent Protocol/PrecedentCoin](#Precedent Protocol/PrecedentCoin)**
+    
+i. [Bonding Requirement](#Bonding Requirement)    
+    
+ii. [Proof of Precedent (PoP)](#Proof of Precedent (PoP))
+    
+iii. [Reputation](#Reputation)
+    
+iv. [Supply & Initial Distribution](#Supply & Initial Distribution)
+    
+3.** [Considerations](#Considerations)**
 
-    i. [Bonding Requirement](#Bonding Requirement)    
-    
-    ii. [Proof of Precedent (PoP)](#Proof of Precedent (PoP))
-    
-    iii. [Reputation](#Reputation)
-    
-    iv. [Supply & Initial Distribution](#Supply & Initial Distribution)
-    
-3. **[Considerations](#Considerations)**
-
-4. **[Conclusion](#Conclusion)**
+4.** [Conclusion](#Conclusion)**
 <br>
 <br>
 
@@ -100,7 +100,7 @@ ARBITRATOR - An individual who has posted a bond, and stipulates use of the Prec
 
 #### Concensus
 
-
+Some text
 
 
 #### Proof of Precedent (PoP)
