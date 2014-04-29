@@ -83,11 +83,11 @@ Smith predicted that private courts would have to 1. allow citizen access to tri
 ### Precedent Protocol/PrecedentCoin
 <br>
 
-PrecedentCoins are the incentivization mechanism underlying the Precedent Protocol. The Precedent Protocol is a way for Arbitrators to be rewarded for publishing their decisions and contributing to the development of common law. PrecedentCoin attepts to solve the public goods problem of precedents in common law legal systems... 
+PrecedentCoins are the incentivization mechanism underlying the Precedent Protocol. The Precedent Protocol is a way for Arbitrators to be predictably rewarded for publishing their decisions and contributing to the development of common law. PrecedentCoin attepts to overcome the "public goods" problem of publicly available precedents in common law legal systems... 
 
 
 
-Generally, an individual can take on one of four roles at a time while using the Precedent Protocol. These roles are:
+Generally, a user can take on one of four roles at a time while using the Precedent Protocol. These roles are:
 
 POSSESSOR - An individual who possesses PrecedentCoin without having posted a bond.
 
@@ -98,16 +98,26 @@ PARTY - An individual who has posted a bond and submits an agreement to an ARBIT
 ARBITRATOR - An individual who has posted a bond, and stipulates use of the Precedent Protocol as a prerequisite for arbitrating disputes. Following publication, an arbitral decision is subject to a vote of legitimacy by a pool of WITNESSES. If the outcome of the vote is affirmative as a legitimate outcome the ARBITRATOR is awarded with an amount of PrecedentCoin. The ARBITRATOR thus maintains a reputation within the Precedent Protocol reflective of the ability to publish bona fide precedents (Endogenous). Outside the Precedent Protocol ARBITRATORS will likely be scored or rated through other means, perhaps incorporating precedents published via the Precedent Protocol (Exogenous).
 
 
-#### Bonding Requirement
-<br>
+#### Concensus
 
-Some Text here
+
 
 
 #### Proof of Precedent (PoP)
 <br>
 
 Some other text here
+
+
+
+
+#### Bonding Requirement
+<br>
+
+Some Text here
+
+
+
 
 
 
@@ -160,6 +170,8 @@ Now, A has suffered some injury as a result of Bs conduct. (A cannot resort to r
 
 ### Future Considerations
 <br>
+Q: What happens when all of the PrecedentCoins have been distributed?
+A: Number of legal precedents this year... we have more coins.
 
 Future Development 
 - Search and Shepardization
