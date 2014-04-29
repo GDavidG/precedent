@@ -31,7 +31,7 @@ Three felonies a day, ignorance of the law(rational ignorance 1.what laws are in
 <br>
 <br>
 
-### Background
+### Background 
 
 Recognition. Recognition of law was based on kinship and contractual reciprocities motivated by the benfits of individual rights and private property. Indeed, a "mental codification of abstract rules" existed, so that legal decisions were part of a "going order"(Benson, Citing Popisil, Anthropology of Law: A Comparative Theory). Grammatical phrases or references to specific customs, precedents, or rules were present in all adjudication decisions that Popisil observed. He concluded: "not only does a legal decision solve a specific case, but it also formulates an ideal - a solution intended to be utilized in a similar situation in the future. The ideal component binds all other members of the group who did not particiapte in the case under consideration. The [adjudicator] himself turns to his previous decisions for consistency. In a way, they also bind him. Lawyers speak in such a case about the binding force of precedent."(Id.)
 
