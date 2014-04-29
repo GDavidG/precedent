@@ -13,9 +13,9 @@ Three felonies a day, ignorance of the law(rational ignorance 1.what laws are in
 ## Table of Contents
 
 <br>
-1.** [Background](#Background)**  
+1. [Background](#Background)
 
-2.** [Precedent Protocol/PrecedentCoin](#Precedent Protocol/PrecedentCoin)**
+2. [Precedent Protocol/PrecedentCoin](#Precedent Protocol/PrecedentCoin)
     
 i. [Bonding Requirement](#Bonding Requirement)    
     
@@ -25,9 +25,9 @@ iii. [Reputation](#Reputation)
     
 iv. [Supply & Initial Distribution](#Supply & Initial Distribution)
     
-3.** [Considerations](#Considerations)**
+3. [Considerations](#Considerations)
 
-4.** [Conclusion](#Conclusion)**
+4. [Conclusion](#Conclusion)
 <br>
 <br>
 
