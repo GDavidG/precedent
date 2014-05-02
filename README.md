@@ -89,18 +89,18 @@ PrecedentCoins are the incentivization mechanism underlying the Precedent Protoc
 
 Generally, a user can take on one of four roles at a time while using the Precedent Protocol. These roles are:
 
-POSSESSOR - An individual who possesses PrecedentCoin without having posted a bond.
+POSSESSOR - An individual who possesses PrecedentCoin without having posted a deposit bond.
 
-WITNESS - An individual who has posted a bond. When an outcome is published by an arbitrator, a pool of WITNESSES is randomly selected to vote on the legitimacy of the outcome. If a majority agrees that a bona fide Precedent has been geenrated, the ARBITRATOR who published the outcome is rewarded PrecedentCoin based on the distribution schedule. WITNESSES are rated and maintain a reputation score based upon the accuracy of their votes (see Reputation section below).
+WITNESS - An individual who has posted a deposit bond. When an outcome is published by an arbitrator, a pool of WITNESSES is randomly selected to vote on the legitimacy of the outcome. If a majority agrees that a bona fide Precedent has been geenrated, the ARBITRATOR who published the outcome is rewarded PrecedentCoin based on the distribution schedule. WITNESSES are rated and maintain a reputation score based upon the accuracy of their votes (see Reputation section below).
 
-PARTY - An individual who has posted a bond and submits an agreement to an ARBITRATOR. This agreement stipulates use of the Precedent Prtocol as a prerequisite for arbitrating the dispute. As such, PARTIES must remit payment of an amount of PrecedentCoin greater than or equal to the amount of the immediately prior PrecedentCoin reward (parties will typically split this cost 50/50, but it can be otherwise divided). 
+PARTY - An individual who has posted a deposit bond and submits an agreement to an ARBITRATOR. This agreement stipulates use of the Precedent Prtocol as a prerequisite for arbitrating the dispute. As such, PARTIES must remit payment of an amount of PrecedentCoin greater than or equal to the amount of the immediately prior PrecedentCoin reward (parties will typically split this cost 50/50, but it can be otherwise divided). 
 
-ARBITRATOR - An individual who has posted a bond, and stipulates use of the Precedent Protocol as a prerequisite for arbitrating disputes. Following publication, an arbitral decision is subject to a vote of legitimacy by a pool of WITNESSES. If the outcome of the vote is affirmative as a legitimate outcome the ARBITRATOR is awarded with an amount of PrecedentCoin. The ARBITRATOR thus maintains a reputation within the Precedent Protocol reflective of the ability to publish bona fide precedents (Endogenous). Outside the Precedent Protocol ARBITRATORS will likely be scored or rated through other means, perhaps incorporating precedents published via the Precedent Protocol (Exogenous).
+ARBITRATOR - An individual who has posted a deposit bond, and stipulates use of the Precedent Protocol as a prerequisite for arbitrating disputes. Following publication, an arbitral decision is subject to a vote of legitimacy by a pool of WITNESSES. If the outcome of the vote is affirmative as a legitimate outcome the ARBITRATOR is awarded with an amount of PrecedentCoin. The ARBITRATOR thus maintains a reputation within the Precedent Protocol reflective of the ability to publish bona fide precedents (Endogenous). Outside the Precedent Protocol ARBITRATORS will likely be scored or rated through other means, perhaps incorporating precedents published via the Precedent Protocol (Exogenous).
 
 
 #### Concensus
 
-Some text
+The Precedent Protocol achieve consensus via a voting mechanism where a group of individuals (witnesses) vote as to what constitutes a bona fide precedent. Witnesses reputation is enhanced for voting with the majority and adversly affected for voting in the minority. Deposit bonding requirements are increased for users who accumulate a negative reputation.
 
 
 #### Proof of Precedent (PoP)
@@ -109,10 +109,34 @@ Some text
 Some other text here
 
 
+Publication Requirements - Publish to at least three venues? (MaidSafe, Pastebin, Throww?) Bonus for additional publication?
 
 
-#### Bonding Requirement
+#### Desposit Bonds
 <br>
+
+A system of deposit bonds tied to user reputation ensures that bad actors do not have an incentive to abuse the network.
+
+Generally: https://en.bitcoin.it/wiki/Contracts#Example_1:_Providing_a_deposit
+
+The Precedent Protocol implements a system in which multiple transactions are created, one by the user (the deposit bond (Bitcoin)), and one by the protocol (the deposit bond instrument/contract). 
+
+The protocol recognizes when a particular pubkey has entered into a deposit bond contract with the protocol. If a users reputation begins to wane, the protocol will impose a greater deposit bond requirement for the duration of the prior bond contract.
+
+
+Timeframe of deposit bonds / nTimeLock
+
+A user submits a despoit bond, agreeing to release the deposit bond back to himself at some time in the future. The time in which money is inaccessible to both the user and the protocol is the primary means through which bad actors are discouraged.
+
+Deposit Bond Examples:
+
+1. User agrees to a deposit bond with the following terms: .1 BTC for a one month term. 
+
+2. If at some point during the one month term, the users reputation falls below some limit, the previous deposit bond can be deemed insufficient for a given pubkey, and a new more burdensome requirement can be imposed.
+
+(Require proof of additional 'deposit bonds' for decreasing reputation of a given pubkey)
+
+
 
 Some Text here
 
@@ -122,7 +146,6 @@ Some Text here
 
 
 
-Publication Requirements - Publish to at least three venues? (MaidSafe, Pastebin, Throww?) Bonus for additional publication?
 
 
 #### Reputation 
@@ -138,10 +161,32 @@ http://en.wikipedia.org/wiki/Dempster%E2%80%93Shafer_theory
 
 #### Process
 <br>
-
 1. A contract with sufficient offer, consideration, and acceptance is entered into by the parties. Within this agreement is an arbitration clause specifying an arbitrator(a third-party) who will adjudicate the contract in the event of a dispute between the parties. The arbitration clause also contains a provision requiring adherence to Precedent Protocol in the event of a dispute (publication, fee disbursal, legitimacy voting etc.). Agreement is hashed in the Bitcoin blockchain via Proof of Existence (http://www.proofofexistence.com/about)
 
-2.
+2. Arbitrator requires the payment of a fee, and a PoP fee (>=present PoP reward) to an escrow address. Once the Precedent Protocol sees this payment, any resulting publication is ripe for validation
+*fee to some Arb C address, PoP fee to escrow address
+
+3. Dispute occurs, and the parties disagree as to the validity of the outcome
+(even if they agree to the validity of the outcome we check for validity)
+
+4. Arb C publishes a Precedent Procedural Manifest detailing how the decision was arrived at, and any other relevant procedural considerations. This document is then stored and published (on Maidsafe?), and hashed via POE.
+
+   (PPM)
+
+5. 10 Ws are selected at random (last block hash), given the PPM from the matter, and a score is assigned from 1-10 as to the validity of the outcome. Validity should be a relatively low bar. W weightings are adjusted based on their correctness. Possible burning of bond if a rep slips below threshold.
+
+6. If the decision is deemed valid the fees in escrow and the protocol reward go to Arb C.
+
+ (Adjucatory) Rep. goes up
+
+7. If the decision is deemed invalid, or illegitimate, the escrowed fees are returned to Alice and Bob, and no protocol reward is sent to Arb C.
+
+(Adj.) rep goes down
+
+Specifics about publication and what comprises a PPM are out of scope for now.
+
+in 5 W weightings and rep are the same thing
+
 
 
 
