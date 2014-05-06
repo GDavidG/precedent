@@ -240,7 +240,7 @@ Future Development
 
 ### Conclusion
 <br>
-
+We have presented a novel mechanism whereby arbitrators are rewarded for the publication of their arbitral decisions. As a low-trust system built atop trustless infrastructures, we have proposed despoit bond and reputation systems as an attempt to eliminate perverse incentives from the protocol.
 
 
 
