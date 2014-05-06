@@ -229,7 +229,11 @@ Now, A has suffered some injury as a result of Bs conduct. (A cannot resort to r
 ### Future Considerations
 <br>
 Q: What happens when all of the PrecedentCoins have been distributed?
-A: Number of legal precedents this year... we have more coins.
+A: Number of legal precedents this year... we have more coins. Fee-based?
+
+Q: What happens when bad actors overtake the network and produce maligned precedents?
+A: This will be hugely costly due to bonding reqs/rep. Otherwise fork.
+
 
 Future Development 
 - Search and Shepardization
