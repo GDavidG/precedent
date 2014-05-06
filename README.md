@@ -95,7 +95,8 @@ WITNESS - An individual who has posted a deposit bond. When an outcome is publis
 
 PARTY - An individual who has posted a deposit bond and submits an agreement to an ARBITRATOR. This agreement stipulates use of the Precedent Prtocol as a prerequisite for arbitrating the dispute. As such, PARTIES must remit payment of an amount of PrecedentCoin greater than or equal to the amount of the immediately prior PrecedentCoin reward (parties will typically split this cost 50/50, but it can be otherwise divided). 
 
-	ex.    	If current_reward_for_valid_precedent = 500
+	ex.    	
+    		If current_reward_for_valid_precedent = 500
 			(This amount can be escrowed, and returned in the event of an 						illegitimate precedent as voted on by WITNESSES)    		
            	
             
