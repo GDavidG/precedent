@@ -121,6 +121,8 @@ Some other text here
 
 Publication Requirements - Publish to at least three venues? (MaidSafe, Pastebin, Throww?) Bonus for additional publication?
 
+Precedent Procedural Manifest (PPM)
+
 
 #### Desposit Bonds
 <br>
