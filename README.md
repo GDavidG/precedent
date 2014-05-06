@@ -8,6 +8,8 @@ Bootstrapping a million new legal systems.
 "Only polycentric law can keep up with that most polycentric of networks, the Internet." - Tom. W. Bell, Polycentric Law in the New Millennium (http://www.tomwbell.com/writings/FAH.html)
 
 Three felonies a day, ignorance of the law(rational ignorance 1.what laws are in my interest, 2. What is the my congressman doing? (your vote is very unlikely to alter the result of any given election, Somin)
+http://papers.ssrn.com/sol3/papers.cfm?abstract_id=916963
+http://papers.ssrn.com/sol3/papers.cfm?abstract_id=457760
 <br>
 <br>
 ## Table of Contents
@@ -83,17 +85,25 @@ Smith predicted that private courts would have to 1. allow citizen access to tri
 ### Precedent Protocol/PrecedentCoin
 <br>
 
-PrecedentCoins are the incentivization mechanism underlying the Precedent Protocol. The Precedent Protocol is a way for Arbitrators to be predictably rewarded for publishing their decisions and contributing to the development of common law. PrecedentCoin attepts to overcome the "public goods" problem of publicly available precedents in common law legal systems... 
+PrecedentCoins are the incentivization mechanism underlying the Precedent Protocol. The Precedent Protocol is a way for Arbitrators to be predictably rewarded for publishing their decisions and contributing to the development of a body of common law. PrecedentCoin attepts to overcome the "public goods" problem of publicly available precedents in common law legal systems as outlined above. 
 
-
-
-Generally, a user can take on one of four roles at a time while using the Precedent Protocol. These roles are:
+As a preliminary matter, a user can take on one of four roles at a time while using the Precedent Protocol. These roles are:
 
 POSSESSOR - An individual who possesses PrecedentCoin without having posted a deposit bond.
 
-WITNESS - An individual who has posted a deposit bond. When an outcome is published by an arbitrator, a pool of WITNESSES is randomly selected to vote on the legitimacy of the outcome. If a majority agrees that a bona fide Precedent has been geenrated, the ARBITRATOR who published the outcome is rewarded PrecedentCoin based on the distribution schedule. WITNESSES are rated and maintain a reputation score based upon the accuracy of their votes (see Reputation section below).
+WITNESS - An individual who has posted a deposit bond. When an outcome is published by an arbitrator, a pool of WITNESSES is randomly selected to vote on the legitimacy of the outcome. If a majority agrees that a bona fide Precedent has been geenrated, the ARBITRATOR who published the precedent is rewarded PrecedentCoin based on the distribution schedule. WITNESSES are rated and maintain a reputation score based upon the accuracy of their votes (see Reputation section below).
 
 PARTY - An individual who has posted a deposit bond and submits an agreement to an ARBITRATOR. This agreement stipulates use of the Precedent Prtocol as a prerequisite for arbitrating the dispute. As such, PARTIES must remit payment of an amount of PrecedentCoin greater than or equal to the amount of the immediately prior PrecedentCoin reward (parties will typically split this cost 50/50, but it can be otherwise divided). 
+
+	ex.    	If current_reward_for_valid_precedent = 500
+			(This amount can be escrowed, and returned in the event of an 						illegitimate precedent as voted on by WITNESSES)    		
+           	
+            
+            then amt_paid_to_arb_by_parties_pre_arb = 500
+           	(Again, arb can stipulate that this be borne by both parties equally.)
+            
+            else exit (conditions violative of Precedent Protocol) 
+
 
 ARBITRATOR - An individual who has posted a deposit bond, and stipulates use of the Precedent Protocol as a prerequisite for arbitrating disputes. Following publication, an arbitral decision is subject to a vote of legitimacy by a pool of WITNESSES. If the outcome of the vote is affirmative as a legitimate outcome the ARBITRATOR is awarded with an amount of PrecedentCoin. The ARBITRATOR thus maintains a reputation within the Precedent Protocol reflective of the ability to publish bona fide precedents (Endogenous). Outside the Precedent Protocol ARBITRATORS will likely be scored or rated through other means, perhaps incorporating precedents published via the Precedent Protocol (Exogenous).
 
