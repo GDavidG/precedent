@@ -21,7 +21,7 @@ http://papers.ssrn.com/sol3/papers.cfm?abstract_id=457760
     
     i. [Bonding Requirement](#Bonding Requirement)    
     
-    ii. [Proof of Precedent (PoP)](#Proof of Precedent (PoP))
+    ii. [Proof of Precedent (PoP)](#Proof of Precedent (PoP)
     
     iii. [Reputation](#Reputation)
     
@@ -226,7 +226,7 @@ A and B have a contractual arrangement stipulating that disputes will be heard b
 Now, A has suffered some injury as a result of Bs conduct. (A cannot resort to resititutive measures against B on his own, as doing so may be construed as an initiation of force against B, thus A, as previously agreed, brings his dispute to Arbitrator C for resoltution in line with C's prior decisions).
 
 
-### Future Considerations
+### Considerations
 <br>
 Q: What happens when all of the PrecedentCoins have been distributed?
 A: Number of legal precedents this year... we have more coins. Fee-based?
