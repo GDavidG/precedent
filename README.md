@@ -21,7 +21,7 @@ http://papers.ssrn.com/sol3/papers.cfm?abstract_id=457760
     
     i. [Bonding Requirement](#Bonding Requirement)    
     
-    ii. [Proof of Precedent (PoP)](#Proof of Precedent (PoP)
+    ii. [Proof of Precedent (PoP)](#Proof of Precedent (PoP))
     
     iii. [Reputation](#Reputation)
     
