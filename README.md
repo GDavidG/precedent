@@ -15,14 +15,14 @@ http://papers.ssrn.com/sol3/papers.cfm?abstract_id=457760
 ## Table of Contents
 
 <br>
-1. [Background](#Background)
-2. [Precedent Protocol/PrecedentCoin](#Precedent_Protocol/PrecedentCoin)    
-    i. [Bonding Requirement](#Bonding_Requirement)    
-    ii. [Proof of Precedent (PoP)](#Proof_of_Precedent_(PoP))
-    iii. [Reputation](#Reputation)
-    iv. [Supply & Initial Distribution](#Supply_&_Initial_Distribution)
-3. [Considerations](#Considerations)
-4. [Conclusion](#Conclusion)
+1. [Background](#Background)<br>
+2. [Precedent Protocol/PrecedentCoin](#Precedent_Protocol/PrecedentCoin)<br>    
+    i. [Bonding Requirement](#Bonding_Requirement)    <br>
+    ii. [Proof of Precedent (PoP)](#Proof_of_Precedent_(PoP))<br>
+    iii. [Reputation](#Reputation)<br>
+    iv. [Supply & Initial Distribution](#Supply_&_Initial_Distribution)<br>
+3. [Considerations](#Considerations)<br>
+4. [Conclusion](#Conclusion)<br>
 <br>
 <br>
 
