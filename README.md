@@ -13,10 +13,11 @@ Bootstrapping a million new legal systems.
 <br>
 1. [Background](#Background)<br>
 2. [Precedent Protocol/PrecedentCoin](#Precedent_Protocol/PrecedentCoin)    
-    - i. [Bonding Requirement](#Bonding_Requirement)    <br>
-    - ii. [Proof of Precedent (PoP)](#Proof_of_Precedent_(PoP))<br>
-    - iii. [Reputation](#Reputation)<br>
-    - iv. [Supply & Initial Distribution](#Supply_&_Initial_Distribution)
+    - i. [Consensus](#Consensus)    <br>
+    - ii. [Bonding Requirement](#Bonding_Requirement)    <br>
+    - iii. [Proof of Precedent (PoP)](#Proof_of_Precedent_(PoP))<br>
+    - iv. [Reputation](#Reputation)<br>
+    - v. [Supply & Initial Distribution](#Supply_&_Initial_Distribution)
 3. [Considerations](#Considerations)<br>
 4. [Conclusion](#Conclusion)<br>
 <br>
@@ -35,10 +36,9 @@ http://bitcoinmagazine.com/9435/markets-institutions-currencies-new-method-socia
 
 Judicial outcomes like a public goods suffer from the free rider problem. Governments have been the primary producers of jurisprudence since XXX after the law merchant was coopted, and has been wholly unsuccessful at determining the prices/costs
 
-
 Diversity of thought, values, and opinions is characteristic of successful societies.  
 
-PrecedentCoins are the incentivization mechanism underlying the Precedent Protocol. The Precedent Protocol is a way for Arbitrators to be predictably rewarded for the publication of their awards, thus contributing to the development of a body of poly-centric common law. PrecedentCoin attempts to overcome the "public goods" problem of publicly available precedents in common law legal systems as outlined above.
+PrecedentCoins are the incentivization mechanism underlying the Precedent Protocol. The Precedent Protocol is a way for Arbitrators to be predictably rewarded for the publication of their awards, thus contributing to the development of a body of poly-centric common law. 
 
 As a preliminary matter, a user can take on one of four roles at a time while using the Precedent Protocol. These roles are:
 
