@@ -16,7 +16,7 @@ http://papers.ssrn.com/sol3/papers.cfm?abstract_id=457760
 
 <br>
 1. [Background](#Background)<br>
-2. [Precedent Protocol/PrecedentCoin](#Precedent_Protocol/PrecedentCoin)<br>    
+2. [Precedent Protocol/PrecedentCoin](#Precedent_Protocol/PrecedentCoin)    
     i. [Bonding Requirement](#Bonding_Requirement)    <br>
     ii. [Proof of Precedent (PoP)](#Proof_of_Precedent_(PoP))<br>
     iii. [Reputation](#Reputation)<br>
