@@ -17,15 +17,15 @@ http://papers.ssrn.com/sol3/papers.cfm?abstract_id=457760
 <br>
 1. [Background](#Background)
 
-2. [Precedent Protocol/PrecedentCoin](#Precedent Protocol/PrecedentCoin)
+2. [Precedent Protocol/PrecedentCoin](#Precedent_Protocol/PrecedentCoin)
     
-    i. [Bonding Requirement](#Bonding Requirement)    
+    i. [Bonding Requirement](#Bonding_Requirement)    
     
-    ii. [Proof of Precedent (PoP)](#Proof of Precedent (PoP))
+    ii. [Proof of Precedent (PoP)](#Proof_of_Precedent_(PoP))
     
     iii. [Reputation](#Reputation)
     
-    iv. [Supply & Initial Distribution](#Supply & Initial Distribution)
+    iv. [Supply & Initial Distribution](#Supply_&_Initial_Distribution)
     
 3. [Considerations](#Considerations)
 
@@ -131,7 +131,7 @@ The PrecendentCoin Protocol uses the sumproduct of the tallied votes and associa
 Paramertization?  Can/should parties and/or arbitrators be able to bound the random selection of witnesses? 
 
 
-#### Reputation
+## Reputation
 <br>
 
 An Evidential Model of Reputation Management Systems employing Dempster–Shafer theory (DST) belief functions. Other models may be considered.
