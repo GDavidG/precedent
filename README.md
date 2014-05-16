@@ -7,11 +7,7 @@ Bootstrapping a million new legal systems.
 
 "Only polycentric law can keep up with that most polycentric of networks, the Internet." - Tom. W. Bell, Polycentric Law in the New Millennium (http://www.tomwbell.com/writings/FAH.html)
 
-Three felonies a day, ignorance of the law(rational ignorance 1.what laws are in my interest, 2. What is the my congressman doing? (your vote is very unlikely to alter the result of any given election, Somin)
-http://papers.ssrn.com/sol3/papers.cfm?abstract_id=916963
-http://papers.ssrn.com/sol3/papers.cfm?abstract_id=457760
-<br>
-<br>
+
 ## Table of Contents
 
 <br>
@@ -20,7 +16,7 @@ http://papers.ssrn.com/sol3/papers.cfm?abstract_id=457760
     - i. [Bonding Requirement](#Bonding_Requirement)    <br>
     - ii. [Proof of Precedent (PoP)](#Proof_of_Precedent_(PoP))<br>
     - iii. [Reputation](#Reputation)<br>
-    - iv. [Supply & Initial Distribution](#Supply_&_Initial_Distribution)<br>
+    - iv. [Supply & Initial Distribution](#Supply_&_Initial_Distribution)
 3. [Considerations](#Considerations)<br>
 4. [Conclusion](#Conclusion)<br>
 <br>
@@ -31,8 +27,9 @@ http://papers.ssrn.com/sol3/papers.cfm?abstract_id=457760
 ### Precedent Protocol/PrecedentCoin
 <br>
 
-Problem: No price discovery exists for the opt-in publication of judicial outcomes.
-The goal of any legal system is to provide for just outcomes. Thus, 
+Todays judicial systems lack price discovery the voluntary publication of judicial outcomes.  Publication and dissemination of judicial outcomes, like many public goods, suffers from the free rider problem: wherein producers of the public good (precedents) are not compensated by those consuming it. Judicial outcomes and their publication have long been the exclusive domain of the state; however, innovations in cryptocurrency and blockchain technology enable their publication in a transparent, decentralized, and voluntary manner. 
+
+The goal of any legal system is to provide for just outcomes. 
 
 http://bitcoinmagazine.com/9435/markets-institutions-currencies-new-method-social-incentivization/
 
