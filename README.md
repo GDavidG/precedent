@@ -189,7 +189,7 @@ Reputation = R (1-10, min. needed to vote w/o addt’l bond requirements = 5)
 | 1    | 0.5 | 5  | 0.1   | 0.05 | 0.5 | 0 | 1 | 0.65  | 0     | 0.65 |
 | 1    | 0.5 | 5  | 0.1   | 0.05 | 0.5 | 0 | 1 | 0.65  | 0     | 0.65 |
 |      |     |    |       |      |     |   |   |       | 6.44  |      |
-|      |     |    |       |      |     |   |   |       |       |      |
+|      |     |    |       |      |     |   |   |       |       | 5    |
 
 AFFIRMATIVE = 6.44
 NOT AFFIRMATIVE = 5
