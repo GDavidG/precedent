@@ -11,15 +11,15 @@ Bootstrapping a million new legal systems.
 ## Table of Contents
 
 <br>
-1. [Background](#Background)<br>
-2. [Precedent Protocol/PrecedentCoin](#Precedent_Protocol/PrecedentCoin)    
-    - i. [Consensus](#Consensus)    <br>
-    - ii. [Bonding Requirement](#Bonding_Requirement)    <br>
-    - iii. [Proof of Precedent (PoP)](#Proof_of_Precedent_(PoP))<br>
-    - iv. [Reputation](#Reputation)<br>
-    - v. [Supply & Initial Distribution](#Supply_&_Initial_Distribution)
-3. [Considerations](#Considerations)<br>
-4. [Conclusion](#Conclusion)<br>
+1. [Background][]<br>
+2. [Precedent Protocol/PrecedentCoin][]   
+    - i. [Consensus][]<br>
+    - ii. [Bonding Requirement][]   <br>
+    - iii. [Proof of Precedent (PoP)][]<br>
+    - iv. [Reputation][]<br>
+    - v. [Supply & Initial Distribution][]
+3. [Considerations][]<br>
+4. [Conclusion][]<br>
 <br>
 <br>
 
