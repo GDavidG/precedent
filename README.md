@@ -191,9 +191,9 @@ Reputation = R (1-10, min. needed to vote w/o addt’l bond requirements = 5)
 |      |     |    |       |      |     |   |   |       | 6.44  |      |
 |      |     |    |       |      |     |   |   |       |       | 5    |
 
-AFFIRMATIVE = 6.44
-NOT AFFIRMATIVE = 5
-CA is achieved.
+AFFIRMATIVE = 6.44<br>
+NOT AFFIRMATIVE = 5<br>
+CA is achieved.<br>
 
 *CONSENSUS is the goal of the WITNESSING EVENT.  Constraints may be built into the protocol which would result in NON-CONSENSUS, requiring “re-voting”. 
 
