@@ -11,7 +11,7 @@ Bootstrapping a million new legal systems.
 ## Table of Contents
 
 <br>
-1. [Background](#https://github.com/mdelias/precedent/blob/master/README.md#background)<br>
+1. [Background](#Background)<br>
 2. [Precedent Protocol/PrecedentCoin][]   
     - i. [Consensus][]<br>
     - ii. [Bonding Requirement][]   <br>
@@ -23,7 +23,7 @@ Bootstrapping a million new legal systems.
 <br>
 <br>
 
-<a name="https://github.com/mdelias/precedent/blob/master/README.md#background">
+<a name="Backgroundd">
 ###Background
 
 ### Precedent Protocol/PrecedentCoin
