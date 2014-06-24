@@ -26,7 +26,7 @@ Bootstrapping a million new legal systems, one precedent at a time.
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b.[Terms](#terms)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  c.[Bonding Process](#bonding-process)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c.[Bonding Process](#bonding-process)
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d.[Fee Structure](#fee-structure)
  
