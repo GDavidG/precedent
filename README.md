@@ -11,7 +11,7 @@ Bootstrapping a million new legal systems.
 ## Table of Contents
 
 <br>
-1. [Background](#Background)<br>
+1. [Background](#background)<br>
 2. [Precedent Protocol/PrecedentCoin][]   
     - i. [Consensus][]<br>
     - ii. [Bonding Requirement][]   <br>
@@ -23,7 +23,7 @@ Bootstrapping a million new legal systems.
 <br>
 <br>
 
-<a name="Backgroundd">
+<a name="backgroundd">
 ###Background
 
 ### Precedent Protocol/PrecedentCoin
