@@ -1,7 +1,7 @@
 The Precedent Protocol Whitepaper
 ===================================
 
-A Decentralized Autonomous Legal Procedure Organization
+A Decentralized Autonomous Legal Procedure Organization<br>
 Incentivizing arbitrators and parties to voluntarily opt for publication of arbitral outcomes and rewarding both arbitrators and parties for their participation in precedential matters.
 
 Bootstrapping a million new legal systems, one precedent at a time.
@@ -20,31 +20,31 @@ Bootstrapping a million new legal systems, one precedent at a time.
 
 [Introduction](#introduction)
 
-[Proof of Precedent (PoP)](#proof)
+[Proof of Precedent (PoP)](#proof-of-precedent-(PoP))
 
 [Roles](#roles)
 
 [Terms](#terms)
 
-[Bonding Process](#bonding)
+[Bonding Process](#bonding-process)
 
-[Fee Structure](#fee)
+[Fee Structure](#fee-structure)
 
 [Consensus](#consensus)
 
-[Reward Schedule](#rewards)
+[Reward Schedule](#reward-schedule)
 
-[Publication Reward](#publication)
+[Publication Reward](#publication-reward)
 
-[Citation Reward](#citation)
+[Citation Reward](#citation-reward)
 
-[Supply and Initial Distribution](#supply)
+[Supply and Initial Distribution](#supply-and-initial-distribution)
 
-[Demand for PrecedentCoin](#demand)
+[Demand for PrecedentCoin](#demand-for-precedentcoin)
 
 [Considerations](#considerations)
 
-[Implications & Outcomes](#implications)
+[Implications & Outcomes](#implications-&-outcomes)
 
 [Conclusion](#conclusion)
 
@@ -65,7 +65,7 @@ The goal of any legal system is to provide for just outcomes and certainty throu
 
 A new method of social incentivization
 
-<a name="proof">
+<a name="proof-of-preceent-(PoP)">
 ###Proof of Precedent (PoP)
 
 Proof of Precedent is the successful demonstration of a justiciable, bona fide dispute, and its subsequent publication for future/possible citation. PrecedentCoins are the incentivization mechanism underlying the Precedent Protocol, rewarding arbitrators and parties for the publication and later citation of outcomes and awards, thus contributing to the development of a body of polycentric common law. As a preliminary matter, a user can take on one of four roles at any given time when using the Precedent Protocol.
@@ -105,7 +105,7 @@ DECISION (file) - a bona fide dispute and OPINION per the WITNESSING EVENT. Foll
 
 PUBLICATION - Occurs simultaneously when an OPINION is voted AFFIRMATIVE during the WITNESSING EVENT.
 
-<a name="bonding">
+<a name="bonding-process">
 ###Bonding Process
 
 A POSSESSOR submits a deposit bond, agreeing that the deposit bond will be released by the protocol at some time in the future (this is a variable within the open source Precedent Protocol and will need extensive real-world testing). The cost of the bond and the time in which value is inaccessible to both the user and the protocol is the primary means through which bad actors are discouraged for generating spurious OPINIONS and DECISIONS.
@@ -133,7 +133,7 @@ else
 
 BACur + [ BAMin  * [% P *  ( 5-R ) ] ]
 
-<a name="fee structure">
+<a name="fee-structure">
 ###Fee Structure
 
 Minimum fee requirements are instituted to create an incentive compatible system.   PARTIES pay two equal minimum “deposits” to ARBITRATOR and WITNESSES (the fee is equally distributed among WITNESSES). 
@@ -356,8 +356,8 @@ CA is achieved.
 
 *CONSENSUS is the goal of the WITNESSING EVENT.  Constraints may be built into the protocol which would result in NON-CONSENSUS, requiring “re-voting”. 
 
-<a name="reward">
-Reward Schedule
+<a name="reward-schedule">
+###Reward Schedule
 
 M = 264 - 1
 Block reward = (M - A) / 220 / 1012, where A = current circulation.
@@ -371,7 +371,7 @@ ARBITRATORS are rewarded with a number of PrecedentCoins for OPINIONS which meet
 
 PARTIES are rewarded (reimbursed) the minimum fee (denominated in PrecedentCoin) which was required as part of the ARBITRATORS fee. 
 
-<a name="citation">
+<a name="citation-reward">
 ###Citation Reward
 
 To further incentivize both parties and arbitrators to be active participants in the protocol, when arbitrators cite old precedents which adhere to the Precedent Protocol, the network compensates the original ARBITRATOR and PARTIES with PrecedentCoins, on a predictable, decaying schedule.
@@ -387,7 +387,7 @@ PubREWARD for some PARTIES, ARBITRATOR = CNCur ; as defined by the protocol and 
 
 Please refer to Diagram 1 or a depiction of this mechanism.
 
-<a name="supply">
+<a name="supply-&-initial-distribution">
 ###Supply & Initial Distribution
 
 There will be a bitcoin crowdfund which will create a total number of PrecedentCoins base on the following factor
@@ -414,7 +414,7 @@ Arbitrators will be able to submit a pubkey during the kickstarter period in ord
 4. Individuals who merely possess PrecedentCoin and desire to support a body of polycentric law and those ARBITRATORS producing it.
 
 <a name="considerations">
-Considerations
+###Considerations
 
 Q: What happens when all of the PrecedentCoins have been distributed?
 A: Fee-based
@@ -438,7 +438,7 @@ Future Development
 - Arbitrator specific coins?
 - bitrated.com and trustbit.com integration, Wikipedia ArbCom
 
-<a name="implications">
+<a name="implications-&-outcomes">
 ###Implications & Outcomes 
 
 The massive success of eLance-oDesk and Guru coupled with the existence of services like Judge.me, Bitrated.com, Trustbit, and Wikipedia ArbCom demonstrate that in the future an ever increasing amount of commerce; and by extension dispute resolution and adjudication will occur online between geographically disparate parties. Further, trustless e-cash systems and anonymous routing schemes dispense with the need for arbitrators, parties, and witnesses to be privy to the identity of those adjudicating and disseminating common law precedents.  
