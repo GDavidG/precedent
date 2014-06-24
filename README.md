@@ -22,25 +22,25 @@ Bootstrapping a million new legal systems, one precedent at a time.
 
 3.[Proof of Precedent (PoP)](#proof-of-precedent-(PoP))
 
-  a.[Roles](#roles)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.[Roles](#roles)
 
-  b.[Terms](#terms)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b.[Terms](#terms)
 
-  c.[Bonding Process](#bonding-process)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  c.[Bonding Process](#bonding-process)
 
-  d.[Fee Structure](#fee-structure)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d.[Fee Structure](#fee-structure)
  
 4.[Consensus](#consensus)
 
 5.[Reward Schedule](#reward-schedule)
 
-  a.[Publication Reward](#publication-reward)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.[Publication Reward](#publication-reward)
 
-  b.[Citation Reward](#citation-reward)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b.[Citation Reward](#citation-reward)
 
-  c.[Supply & Initial Distribution](#supply-&-initial-distribution)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c.[Supply & Initial Distribution](#supply-&-initial-distribution)
  
-  d.[Demand for PrecedentCoin](#demand-for-precedentcoin)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d.[Demand for PrecedentCoin](#demand-for-precedentcoin)
 
 6.[Considerations](#considerations)
 
