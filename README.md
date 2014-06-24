@@ -124,9 +124,9 @@ See generally: Bitcoin Contracts: Deposit Bonds and Distributed Oracles System f
 The protocol recognizes when a particular pubkey has entered into a deposit bond contract with the protocol. If a user’s reputation begins to wane, the protocol will impose a greater deposit bond requirement for the duration of the prior bond contract, this is referred to as the PENALTY. 
 
 BAMin is predetermined by the protocol
-P = PENALTY ; and is predetermined by the protocol 
+P = PENALTY ; and is predetermined by the protocol <br><br>
 BACur = Current Bond
-<br>
+<br><br>
 BARequired = BAMin  BACur | R For some WITNESS at WE sub n  5<br>
 
 else<br>
