@@ -16,39 +16,39 @@ Bootstrapping a million new legal systems, one precedent at a time.
 
 ##Table of Contents
 
-[Background](#background)
+1.[Background](#background)
 
-[Introduction](#introduction)
+2.[Introduction](#introduction)
 
-[Proof of Precedent (PoP)](#proof-of-precedent-(PoP))
+3.[Proof of Precedent (PoP)](#proof-of-precedent-(PoP))
 
-[Roles](#roles)
+  a.[Roles](#roles)
 
-[Terms](#terms)
+  b.[Terms](#terms)
 
-[Bonding Process](#bonding-process)
+  c.[Bonding Process](#bonding-process)
 
-[Fee Structure](#fee-structure)
+  d.[Fee Structure](#fee-structure)
+ 
+4.[Consensus](#consensus)
 
-[Consensus](#consensus)
+5.[Reward Schedule](#reward-schedule)
 
-[Reward Schedule](#reward-schedule)
+  a.[Publication Reward](#publication-reward)
 
-[Publication Reward](#publication-reward)
+  b.[Citation Reward](#citation-reward)
 
-[Citation Reward](#citation-reward)
+  c.[Supply & Initial Distribution](#supply-&-initial-distribution)
+ 
+  d.[Demand for PrecedentCoin](#demand-for-precedentcoin)
 
-[Supply and Initial Distribution](#supply-and-initial-distribution)
+6.[Considerations](#considerations)
 
-[Demand for PrecedentCoin](#demand-for-precedentcoin)
+7.[Implications & Outcomes](#implications-&-outcomes)
 
-[Considerations](#considerations)
+8.[Conclusion](#conclusion)
 
-[Implications & Outcomes](#implications-&-outcomes)
-
-[Conclusion](#conclusion)
-
-[Appendix](#appendix)
+9.[Appendix](#appendix)
 
 
 <a name="background">
