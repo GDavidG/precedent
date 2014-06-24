@@ -126,12 +126,12 @@ The protocol recognizes when a particular pubkey has entered into a deposit bond
 BAMin is predetermined by the protocol
 P = PENALTY ; and is predetermined by the protocol 
 BACur = Current Bond
- 
-BARequired = BAMin  BACur | R For some WITNESS at WE sub n  5
+<br>
+BARequired = BAMin  BACur | R For some WITNESS at WE sub n  5<br>
 
-else
+else<br>
 
-BACur + [ BAMin  * [% P *  ( 5-R ) ] ]
+BACur + [ BAMin  * [% P *  ( 5-R ) ] ]<br>
 
 <a name="fee-structure">
 ###Fee Structure
@@ -200,7 +200,7 @@ CA is achieved.<br>
 <a name="reward-schedule">
 ###Reward Schedule
 
-M = 264 - 1
+M = 264 - 1<br>
 Block reward = (M - A) / 220 / 1012, where A = current circulation.
 
 <a name="publication">
