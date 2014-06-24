@@ -1,226 +1,470 @@
-Precedent Protocol Whitepaper
-=========
+The Precedent Protocol Whitepaper
+===================================
 
-Incentivizing arbitrators and parties to voluntarily opt for publication of arbitral awards.
+A Decentralized Autonomous Legal Procedure Organization
+Incentivizing arbitrators and parties to voluntarily opt for publication of arbitral outcomes and rewarding both arbitrators and parties for their participation in precedential matters.
 
-Bootstrapping a million new legal systems.
+Bootstrapping a million new legal systems, one precedent at a time.
 
-"Only polycentric law can keep up with that most polycentric of networks, the Internet." - Tom. W. Bell, Polycentric Law in the New Millennium (http://www.tomwbell.com/writings/FAH.html)
+"Only polycentric law can keep up with that most polycentric of networks, the Internet." - Tom. W. Bell, Polycentric Law in the New Millennium 
 
 
-## Table of Contents
 
-<br>
-1. [Background](#background)<br>
-2. [Precedent Protocol/PrecedentCoin][]   
-    - i. [Consensus][]<br>
-    - ii. [Bonding Requirement][]   <br>
-    - iii. [Proof of Precedent (PoP)][]<br>
-    - iv. [Reputation][]<br>
-    - v. [Supply & Initial Distribution][]
-3. [Considerations][]<br>
-4. [Conclusion][]<br>
-<br>
-<br>
-
-<a name="backgroundd">
-###Background
-
-### Precedent Protocol/PrecedentCoin
-<br>
-
-Todays judicial systems lack price discovery the voluntary publication of judicial outcomes.  Publication and dissemination of judicial outcomes, like many public goods, suffers from the free rider problem: wherein producers of the public good (precedents) are not compensated by those consuming it. Judicial outcomes and their publication have long been the exclusive domain of the state; however, innovations in cryptocurrency and blockchain technology enable their publication in a transparent, decentralized, and voluntary manner. 
-
-The goal of any legal system is to provide for just outcomes. 
-
-http://bitcoinmagazine.com/9435/markets-institutions-currencies-new-method-social-incentivization/
-
-Judicial outcomes like a public goods suffer from the free rider problem. Governments have been the primary producers of jurisprudence since XXX after the law merchant was coopted, and has been wholly unsuccessful at determining the prices/costs
-
-Diversity of thought, values, and opinions is characteristic of successful societies.  
-
-PrecedentCoins are the incentivization mechanism underlying the Precedent Protocol. The Precedent Protocol is a way for Arbitrators to be predictably rewarded for the publication of their awards, thus contributing to the development of a body of poly-centric common law. 
-
-As a preliminary matter, a user can take on one of four roles at a time while using the Precedent Protocol. These roles are:
-
-POSSESSOR - An individual who possesses PrecedentCoin without having posted a deposit bond.
-
-WITNESS - An individual who has posted a deposit bond. When an outcome is published by an arbitrator, a pool of WITNESSES is randomly selected to vote on the legitimacy of the outcome. If a majority agrees that a bona fide Precedent has been generated, the ARBITRATOR who published the precedent is awarded PrecedentCoin based on the distribution schedule. WITNESSES are rated and maintain a reputation score based upon the accuracy of their votes (see Reputation section below).
-
-PARTY - An individual who has posted a deposit bond and submits an agreement to an ARBITRATOR. This agreement stipulates use of the Precedent Protocol as a prerequisite for arbitrating the dispute. As such, PARTIES must remit payment of an amount of PrecedentCoin greater than or equal to the amount of the immediately prior PrecedentCoin reward (parties will typically split this cost 50/50, but it can be otherwise divided).
-
-    ex.        
-            If current_reward_for_valid_precedent = 500
-            (This amount can be escrowed, and returned in the event of an                         illegitimate precedent as voted on by WITNESSES)            
-               
-            
-            then amt_paid_to_arb_by_parties_pre_arb = 500
-               (Again, arb can stipulate that this be borne by both parties equally.)
-            
-            else exit (conditions violative of Precedent Protocol)
-
-
-ARBITRATOR - An individual who has posted a deposit bond, and stipulates use of the Precedent Protocol as a prerequisite for arbitrating disputes. Following publication, an arbitral decision is subject to a vote of legitimacy by a pool of WITNESSES. If the outcome of the vote is affirmative as a legitimate outcome the ARBITRATOR is awarded with an amount of PrecedentCoin. The ARBITRATOR thus maintains a reputation within the Precedent Protocol reflective of the ability to publish bona fide precedents (Endogenous). Outside the Precedent Protocol ARBITRATORS will likely be scored or rated through other means, perhaps incorporating precedents published via the Precedent Protocol (Exogenous).
-
-
-#### Consensus
-
-The Precedent Protocol achieve consensus via a voting mechanism where a group of individuals (WITNESSES) vote as to what constitutes a bona fide precedent. Witnesses reputation is enhanced for voting with the majority and adversely affected for voting in the minority. Deposit bonding requirements are increased for users who accumulate a negative reputation.
-
-
-#### Proof of Precedent (PoP)
-<br>
-
-Some other text here
-
-
-Publication Requirements - Publish to at least three venues? (MaidSafe, Pastebin, Throww?) Bonus for additional publication?
-
-Precedent Procedural Manifest (PPM)
-
-
-#### Deposit Bonds
-<br>
-
-A system of deposit bonds tied to user reputation ensures that bad actors do not have an incentive to abuse the network.
-
-Generally: https://en.bitcoin.it/wiki/Contracts#Example_1:_Providing_a_deposit
-
-The Precedent Protocol implements a system in which multiple transactions are created, one by the user (the deposit bond (Bitcoin)), and one by the protocol (the deposit bond instrument/contract).
-
-The protocol recognizes when a particular pubkey has entered into a deposit bond contract with the protocol. If a user’s reputation begins to wane, the protocol will impose a greater deposit bond requirement for the duration of the prior bond contract.
-
-
-Timeframe of deposit bonds / nTimeLock
-
-A POSSESSOR submits a deposit bond, agreeing that the deposit bond will be released by the protocol at some time in the future (this is a variable within the open source Precedent Protocol and will need extensive real-world testing). The time in which money is inaccessible to both the user and the protocol is the primary means through which bad actors are discouraged.
-
-Deposit Bonding:
-
-1. POSSESSOR agrees to a deposit bond with the following terms: 1 BTC for a six month term. The POSSESSOR becomes a WITNESS upon the deposit bonds verification by the Precedent Protocol.
-
-a. WITNESSES may revert to being POSSESSORS in the event that their reputation falls below the threshold requirements for their Precedent Protocol verified deposit bond. Former WITNESSES will no longer be able to vote after reverting to POSSESSOR status.  
-
-b. When a WITNESS votes with the majority, their reputation improves and no new deposit bonding requirements are imposed.
-
-2. If at some point during the six month term, the WITNESSES reputation falls below some limit, the previous deposit bond can be deemed insufficient for a given pubkey, and a new more burdensome requirement can be imposed.  The reputation tracker is defined as “Reputationrank” and is scored on a 1-1 WITNESSING event. E.g. WITNESS with a Reputationrank of 5 votes with the majority, said WITNESSES new Reputationrank becomes 6. 
-
-Deposit Bonding terms cannot be extended ad hoc. Even in the event of the imposition of additional bonding requirements, the term of the original deposit bond remains intact. 
-
-As a WITNESS incurs negative reputation as a result of voting in the minority, additional bonding requirements are imposed in the form of additional deposit bonds whose amounts are reduced relative to the minimum deposit bonding requirement. The minimum bonding requirement generates a reputation rank of 5, and when the reputation falls below 5, additional bonding (10% less the minimum bond per negative reputation event), is required to continue to vote, otherwise the WITNESS reverts to POSSESSOR.  
-
-(Require proof of additional 'deposit bonds' for decreasing reputation of a given pubkey)
-
-Weighted voting for witnesses:
-PrecedentCoin Protocol randomly selects 10 witness and immediately ranks their votescore.
-Votescore = (⅓)Bond timeframe + (⅓)Bond Amount + (⅓)Reputationrank
-(.5 years  <= Bond timeframe <= 10 years) / 10
-(1 BTC <= Bond Amount <= 50 BTC) /50
-(5 <= Reputationrank <= 10) / 10
-The PrecendentCoin Protocol uses the sumproduct of the tallied votes and associated witnesses’ votescores for a determination as to legitimacy of outcome. 
-
-Paramertization?  Can/should parties and/or arbitrators be able to bound the random selection of witnesses? 
-
-
-## Reputation
-<br>
-
-An Evidential Model of Reputation Management Systems employing Dempster–Shafer theory (DST) belief functions. Other models may be considered.
-
-see:
-http://www.cs.cmu.edu/~byu/papers/p406-yu.pdf
-http://www.cs.ncsu.edu/faculty/mpsingh/papers/mas/aamas-03-deception.pdf
-http://en.wikipedia.org/wiki/Dempster%E2%80%93Shafer_theory
-
-
-#### Process
-<br>
-1. A contract with sufficient offer, consideration, and acceptance is entered into by the parties. Within this agreement is an arbitration clause specifying an arbitrator(a third-party) who will adjudicate the contract in the event of a dispute between the parties. The arbitration clause also contains a provision requiring adherence to Precedent Protocol in the event of a dispute (publication, fee disbursal, legitimacy voting etc.). Agreement is hashed in the Bitcoin blockchain via Proof of Existence (http://www.proofofexistence.com/about)
-
-2. Arbitrator requires the payment of a fee, and a PoP fee (>=present PoP reward) to an escrow address. Once the Precedent Protocol sees this payment, any resulting publication is ripe for validation
-*fee to some Arb C address, PoP fee to escrow address
-
-3. Dispute occurs, and the parties disagree as to the validity of the outcome
-(even if they agree to the validity of the outcome we check for validity)
-
-4. Arb C publishes a Precedent Procedural Manifest detailing how the decision was arrived at, and any other relevant procedural considerations. This document is then stored and published (on Maidsafe?), and hashed via POE.
-
-   (PPM)
-
-5. 10 Ws are selected at random (last block hash), given the PPM from the matter, and a score is assigned from 1-10 as to the validity of the outcome. Validity should be a relatively low bar. W weightings are adjusted based on their correctness. Possible burning of bond if a rep slips below threshold.
-
-6. If the decision is deemed valid the fees in escrow and the protocol reward go to Arb C.
-
- (Adjucatory) Rep. goes up
-
-7. If the decision is deemed invalid, or illegitimate, the escrowed fees are returned to Alice and Bob, and no protocol reward is sent to Arb C.
-
-(Adj.) rep goes down
-
-Specifics about publication and what comprises a PPM are out of scope for now.
-
-in 5 W weightings and rep are the same thing
-
-
-
-
-#### Supply & Initial Distribution
-<br>
-
-Total Number of PrecedentCoin - 21,000,000,000          9,223,372,036,854,775,807
-
-First Pool of Arbitrators     - 5% - 1,050,000,000        461,168,601,842,738,790
-Kickstarter                   - 15% - 3,150,000,000     1,383,505,805,528,216,371
-Proof of Precedent            - 80% - 16,800,000,000    7,378,697,629,483,820,646
-
-In addition to a number of PrecedentCoin transferred from the parties to the arbitrator, an arbitrator is also awarded a number of PrecedentCoins for arbitral outcomes which meet the requirements for Proof of Precedent (PoP).
-
-
-
-
-Mechanics
-<br>
-
-Arbitrators can opt to require PrecedentCoins from their customers in order to support the PrecedentProtocol. If done in accordance with the requirements of the Precedent Protocol, arbitrators are then awarded additional PrecedentCoins upon the publication of their decision in a given dispute. One can imagine the following example of this mechanism in action.
-
-A and B have a contractual arrangement stipulating that disputes will be heard by an Arbitrator C. Their agreement also stipulated that they would pay the arbitrator some fee, a portion of which must be paid in PrecedentCoin.
-Now, A has suffered some injury as a result of Bs conduct. (A cannot resort to resititutive measures against B on his own, as doing so may be construed as an initiation of force against B, thus A, as previously agreed, brings his dispute to Arbitrator C for resoltution in line with C's prior decisions).
-
-
-### Considerations
-<br>
-Q: What happens when all of the PrecedentCoins have been distributed?
-A: Number of legal precedents this year... we have more coins. Fee-based?
-
-Q: What happens when bad actors overtake the network and produce maligned precedents?
-A: This will be hugely costly due to bonding reqs/rep. Otherwise fork.
-
-
-Future Development
-- Search and Shepardization
-- Arbitrator specific coins?
-- bitrated.com and trustbit.com integration
-
-
-
-### Conclusion
-<br>
-We have presented a novel mechanism whereby arbitrators are rewarded for the publication of their arbitral decisions. As a low-trust system built atop trustless infrastructures, we have proposed despoit bond and reputation systems as an attempt to eliminate perverse incentives from the protocol.
 
 
 
 
+##Table of Contents
 
-### Implications
-### Background
+[Background](#background)
 
-Recognition. Recognition of law was based on kinship and contractual reciprocities motivated by the benfits of individual rights and private property. Indeed, a "mental codification of abstract rules" existed, so that legal decisions were part of a "going order"(Benson, Citing Popisil, Anthropology of Law: A Comparative Theory). Grammatical phrases or references to specific customs, precedents, or rules were present in all adjudication decisions that Popisil observed. He concluded: "not only does a legal decision solve a specific case, but it also formulates an ideal - a solution intended to be utilized in a similar situation in the future. The ideal component binds all other members of the group who did not particiapte in the case under consideration. The [adjudicator] himself turns to his previous decisions for consistency. In a way, they also bind him. Lawyers speak in such a case about the binding force of precedent."(Id.)
+[Introduction](#introduction)
 
-Benson, The Enterprise of Law: Justice Without the State
+[Proof of Precedent (PoP)](#proof)
+
+[Roles](#roles)
+
+[Terms](#terms)
+
+[Bonding Process](#bonding)
+
+[Fee Structure](#fee)
+
+[Consensus](#consensus)
+
+[Reward Schedule](#rewards)
+
+[Publication Reward](#publication)
+
+[Citation Reward](#citation)
+
+[Supply and Initial Distribution](#supply)
+
+[Demand for PrecedentCoin](#demand)
+
+[Considerations](#considerations)
+
+[Implications & Outcomes](#implications)
+
+[Conclusion](#conclusion)
+
+[Appendix](#appendix)
+
+
+<a name="background">
+###Background
+
+<a name="introduction">
+###Introduction
+
+Todays judicial systems lack price discovery for the voluntary publication and citation of judicial outcomes.  Publication and dissemination of judicial outcomes, like many public goods, suffers from the free rider problem: wherein producers of the public good (precedents) are not compensated by those consuming it. Judicial outcomes and their publication have long been primarily the domain of the state; however, innovations in cryptocurrency and blockchain technology now give anyone the ability to fund the publication and citation of precedential matters, thereby generating consistent, transparent, decentralized, and voluntary polycentric common law. 
+
+The Precedent Protocol is strictly concerned with the justiciability of the dispute in question and is wholly agnostic to the justness/rightness of the outcome.
+
+The goal of any legal system is to provide for just outcomes and certainty through predictability of relief from injury. Price discovery for polycentric common law precedents makes these goals more attainable than ever before.
+
+A new method of social incentivization
+
+<a name="proof">
+###Proof of Precedent (PoP)
+
+Proof of Precedent is the successful demonstration of a justiciable, bona fide dispute, and its subsequent publication for future/possible citation. PrecedentCoins are the incentivization mechanism underlying the Precedent Protocol, rewarding arbitrators and parties for the publication and later citation of outcomes and awards, thus contributing to the development of a body of polycentric common law. As a preliminary matter, a user can take on one of four roles at any given time when using the Precedent Protocol.
+
+<a name="roles">
+###ROLES
+
+POSSESSOR - An individual who possesses PrecedentCoin without posting a deposit bond.
+
+DEPOSIT BOND - an amount of value committed by an individual, to the Protocol as inaccessible for an identifiable period of time (See Bonding Process below). 
+
+WITNESS - An individual who has posted a deposit bond and votes on the justiciability of OPINIONS.
+
+PARTY - An individual who has posted a deposit bond, who has previously entered into an agreement which is now in dispute and stipulates usage of the Precedent Protocol.
+
+ARBITRATOR - An individual who has posted a deposit bond, and adjudicates a dispute per the Precedent Protocol. 
+
+<a name="terms">
+###TERMS
+
+The following terms inform the means by which Proof of Precedent is arrived at:
+
+OPINION (.txt file) - the outcome of a dispute between PARTIES as decided by an ARBITRATOR. This document will detail the procedures, rules, reasoning and logic employed in deciding the legal question at issue.
+
+REPUTATION - the measure of a witness’ proclivity to vote with simple majorities during WITNESSING EVENTS.  
+
+INFLUENCE - a value determined by a WITNESS’ bond amount, bond timeframe, and REPUTATION, exercised during WITNESSING EVENTS.  INFLUENCE is calculated by the following procedure:
+INFLUENCE = ⅓ * (Bond Amount) + ⅓ * (Bond Timeframe) + ⅓ * REPUTATION
+
+AFFIRMATIVE - The cumulative INFLUENCE voted during the WITNESSING EVENT towards making an OPINION bona fide.
+
+NOT AFFIRMATIVE - The cumulative INFLUENCE voted during the WITNESSING EVENT to determine an OPINION as non-bona fide. 
+
+WITNESSING EVENT - consideration of the OPINION by the randomly selected WITNESSES. Each WITNESS can consider an OPINION either AFFIRMATIVE or NOT AFFIRMATIVE. An INFLUENCE weighted vote of WITNESSES dictates whether an OPINION is AFFIRMATIVE or NOT AFFIRMATIVE. Only OPINIONS voted in the AFFIRMATIVE become DECISIONS. (At present WITNESSING EVENTS are binary choices) 
+
+DECISION (file) - a bona fide dispute and OPINION per the WITNESSING EVENT. Following PUBLICATION the ARBITRATOR receives a PROTOCOL REWARD (see reward schedule).
+
+PUBLICATION - Occurs simultaneously when an OPINION is voted AFFIRMATIVE during the WITNESSING EVENT.
+
+<a name="bonding">
+###Bonding Process
+
+A POSSESSOR submits a deposit bond, agreeing that the deposit bond will be released by the protocol at some time in the future (this is a variable within the open source Precedent Protocol and will need extensive real-world testing). The cost of the bond and the time in which value is inaccessible to both the user and the protocol is the primary means through which bad actors are discouraged for generating spurious OPINIONS and DECISIONS.
+
+1. POSSESSOR agrees to a deposit bond with the following terms: 1 BTC for a six month term. The POSSESSOR becomes a WITNESS, ARBITRATOR, or PARTY upon the deposit bonds verification by the Precedent Protocol. The following scenarios describe how REPUTATION affects bonding requirements.  
+
+a. WITNESSES revert to being POSSESSORS in the event that their reputation falls below the threshold requirements for their Precedent Protocol verified deposit bond. Former WITNESSES will no longer be able to vote after reverting to POSSESSOR status without having met the additional bonding requirements.  
+
+b. When a WITNESS votes with the majority, their REPUTATION improves and no new deposit bonding requirements are imposed.
+
+Deposit Bonding terms cannot be extended ad hoc. Even in the event of the imposition of additional bonding requirements, the term of the original deposit bond remains intact. 
+
+A system of deposit bonds tied to the WITNESS’ REPUTATIONS ensures that bad actors do not have an incentive to abuse the network.
+See generally: Bitcoin Contracts: Deposit Bonds and Distributed Oracles System for Cryptocurrency Contracts (Oracle mediated-timelock transactions) 
+
+The protocol recognizes when a particular pubkey has entered into a deposit bond contract with the protocol. If a user’s reputation begins to wane, the protocol will impose a greater deposit bond requirement for the duration of the prior bond contract, this is referred to as the PENALTY. 
+
+BAMin is predetermined by the protocol
+P = PENALTY ; and is predetermined by the protocol 
+BACur = Current Bond
+ 
+BARequired = BAMin  BACur | R For some WITNESS at WE sub n  5
+
+else
+
+BACur + [ BAMin  * [% P *  ( 5-R ) ] ]
+
+<a name="fee structure">
+###Fee Structure
+
+Minimum fee requirements are instituted to create an incentive compatible system.   PARTIES pay two equal minimum “deposits” to ARBITRATOR and WITNESSES (the fee is equally distributed among WITNESSES). 
+
+WITNESSES keep deposit when CONSENSUS is achieved; the group must arrive at either AFFIRMATIVE or NOT AFFIRMATIVE.  
+
+Arbitrators keep deposit when an OPINION is created.  
+
+PARTIES are reimbursed their fees in the form of a protocol reward if a DECISION is reached and published.
+
+Theory:   PARTIES must compensate both ARBITRATORS and WITNESSES to fully decentralize the cost of PoP.  ARBITRATORS need WITNESSES to arrive at a decision to determine whether a PoP occurs, a PoP will lead to the ARBITRATORS’ block reward.  PARTIES need only to be reimbursed their fees (as opposed to accepting some larger portion of the publication reward) because they primarily seek dispute resolution, and they will be compensated with further CITATION REWARDS if their precedent is cited.  In addition, fees will keep incentivization viable after block rewards are exhausted.  
+
+<a name="consensus">
+###Consensus
+
+The Precedent Protocol achieves consensus via a voting mechanism (e.g. see Mastercoin Stake Weighted Voting) wherein a group of WITNESSES vote as to what constitutes a bona fide precedent. A given WITNESS’ reputation is enhanced for voting with the majority and adversely affected for voting in the minority. Deposit bonding requirements are increased for users who accumulate a negative reputation lower than the threshold.
+
+(Threshold REPUTATION = 5 in the example)
+Y - A vote by a witness for AFFIRMATIVE
+N - A vote by a witness for NOT AFFIRMATIVE
+A - AFFIRMATIVE
+NA - NOT AFFIRMATIVE
+R - Reputation 
+WE - WITNESSING EVENT
+      
+R For some WITNESS at WE sub n = 5  +/-  R at WE sub 1R at WE sub n -1  { [ Y | A + N | NA ] - [ Y | NA + N | A ] }   
+
+CONSENSUS - is the required outcome for completion of the WITNESSING EVENT.*
+CA = if (AFFIRMATIVE > NOT AFFIRMATIVE,  O → D , O )
+CNA = if (NOT AFFIRMATIVE > AFFIRMATIVE, O → O , null)
+
+PoP = CA ; and publication, as determined by the protocol
+
+
+e.g. One WITNESSING EVENT is voted as follows:
+
+Bond Amt. = BA (min.= 1, max.= 10) in BTC 
+Bond Time = T (min.= 0.5, max.= 10) in Years
+Reputation = R (1-10, min. needed to vote w/o addt’l bond requirements = 5)
+*Normalized Values
+
+BA
+T
+R
+BA*
+T*
+R*
+Y
+N
+i
+i(y)
+i(n)
+1
+0.5
+5
+0.1
+0.05
+0.5
+1
+0
+0.65
+0.65
+0
+2
+1
+5
+0.2
+0.1
+0.5
+1
+0
+0.8
+0.8
+0
+1.5
+2
+6
+0.15
+0.2
+0.6
+1
+0
+0.95
+0.95
+0
+1.25
+10
+5
+0.125
+1
+0.5
+1
+0
+1.625
+1.625
+0
+2.25
+5
+8
+0.225
+0.5
+0.8
+1
+0
+1.525
+1.525
+0
+3
+4
+5
+0.3
+0.4
+0.5
+0
+1
+1.2
+0
+1.2
+*1.9
+3
+*4
+0.19
+0.3
+0.4
+1
+0
+0.89
+0.89
+0
+5
+2
+5
+0.5
+0.2
+0.5
+0
+1
+1.2
+0
+1.2
+5
+1
+7
+0.5
+0.1
+0.7
+0
+1
+1.3
+0
+1.3
+1
+0.5
+5
+0.1
+0.05
+0.5
+0
+1
+0.65
+0
+0.65
+1
+0.5
+5
+0.1
+0.05
+0.5
+0
+1
+0.65
+0
+0.65
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6.44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5
+
+AFFIRMATIVE = 6.44
+NOT AFFIRMATIVE = 5
+CA is achieved.
+
+*CONSENSUS is the goal of the WITNESSING EVENT.  Constraints may be built into the protocol which would result in NON-CONSENSUS, requiring “re-voting”. 
+
+<a name="reward">
+Reward Schedule
+
+M = 264 - 1
+Block reward = (M - A) / 220 / 1012, where A = current circulation.
+
+<a name="publication">
+###Publication Reward
+
+Publication must occur in a manner that is freely and easily accessible by anyone.
+
+ARBITRATORS are rewarded with a number of PrecedentCoins for OPINIONS which meet the requirements for Proof of Precedent (PoP), thus becoming DECISIONS. 
+
+PARTIES are rewarded (reimbursed) the minimum fee (denominated in PrecedentCoin) which was required as part of the ARBITRATORS fee. 
+
+<a name="citation">
+###Citation Reward
+
+To further incentivize both parties and arbitrators to be active participants in the protocol, when arbitrators cite old precedents which adhere to the Precedent Protocol, the network compensates the original ARBITRATOR and PARTIES with PrecedentCoins, on a predictable, decaying schedule.
+
+Citations are accomplished using in text cites to Precedent CASE NUMBERS, which are tied to both the pubkey of the original ARBITRATOR, and the pubkeys of the original PARTIES whom were responsible for the production of the cited DECISION.
+
+C = Citation
+CN = CASE NUMBER 
+
+CREWARD for some PARTIES,ARBITRATORS = PoPCur | CN0 → Cur-1 |  CN0 → Cur-1 < count_CREWARD = 250
+
+PubREWARD for some PARTIES, ARBITRATOR = CNCur ; as defined by the protocol and PARTIES returned original fee 
+
+Please refer to Diagram 1 or a depiction of this mechanism.
+
+<a name="supply">
+###Supply & Initial Distribution
+
+There will be a bitcoin crowdfund which will create a total number of PrecedentCoins base on the following factor
+
+BTC X * 1,000,000
+
+Total Number of PrecedentCoin     - X
+
+First Pool of Arbitrators         - 0.05X
+Kickstarter Pre-Sale               - 0.15X
+Publication & Citation Rewards            - 0.8X 
+
+
+First Pool of Arbitrators 
+
+Arbitrators will be able to submit a pubkey during the kickstarter period in order to be awarded these PrecedentCoins. Must prove that they have been an arbitrator for T period of time.
+
+<a name="demand">
+###Demand for PrecedentCoin
+
+1. PARTIES are required to pay PrecedentCoin to ARBITRATORS who are participating in the Precedent Protocol.
+2. ARBITRATORS who publish their opinions in a uniform and predictable manner.
+3. ARBITRATORS who support a body of polycentric law and those fellow arbitrators producing it.
+4. Individuals who merely possess PrecedentCoin and desire to support a body of polycentric law and those ARBITRATORS producing it.
+
+<a name="considerations">
+Considerations
+
+Q: What happens when all of the PrecedentCoins have been distributed?
+A: Fee-based
+
+Q: Does the Precedent Protocol discourage the settlement of disputes.
+A: No, the Precedent Protocol does not do away with the parties desire, nor the arbitrators willingness to settle a given dispute, and at most will have a de minimus impact on incentives to settle.
+
+Q: What happens when bad actors overtake the network and produce maligned precedents?
+A: This will be hugely costly due to bonding reqs/rep. Otherwise fork.
+
+What is being published? How is it being published? What are WITNESSES assenting to and AFFIRMING during the WITNESSING EVENT. What structure, framework, and procedures should the protocol promote? A discussion of the possible requirements of bona fide OPINIONS is taking place here.
+
+What should constitute a valid precedent? Arbitrator must prove that certain procedures were followed in a given OPINION, what procedures? What are other indicia of integrity(justiciability) in this context? 
+
+Software licenses for arbitral OPINIONS? MIT, CC, GPL? Public Domain?
+
+[Publication Requirements - Publish to at least three venues? (MaidSafe, Pastebin, Throww?) Bonus for additional publication?]
+
+Future Development
+- Search and Shepardization
+- Arbitrator specific coins?
+- bitrated.com and trustbit.com integration, Wikipedia ArbCom
+
+<a name="implications">
+###Implications & Outcomes 
+
+The massive success of eLance-oDesk and Guru coupled with the existence of services like Judge.me, Bitrated.com, Trustbit, and Wikipedia ArbCom demonstrate that in the future an ever increasing amount of commerce; and by extension dispute resolution and adjudication will occur online between geographically disparate parties. Further, trustless e-cash systems and anonymous routing schemes dispense with the need for arbitrators, parties, and witnesses to be privy to the identity of those adjudicating and disseminating common law precedents.  
+
+
+The commoditization of adjudication will help coordinate voluntary action between status quo arbitral processes and the Precendent Protocol, as the Precedent network grows, so to will the incentive to participate.   
+smart/self-executing contracts will not eliminate the need for human judgment, reasoning
+
+As open source software, the Precedent Protocol may be forked at any time by anyone. A forking event is indicative of ethical or procedural disagreements with the direction of the protocol, and in which prior precedents are technically and practically obsolete for the fork.
+
+<a name="conclusion">
+###Conclusion
+
+We have presented a novel mechanism whereby arbitrators and parties are rewarded for the publication and citation of arbitral decisions. As a low-trust system built atop trustless infrastructures, we have proposed deposit bonding and reputation systems as an attempt to eliminate perverse incentives from the protocol.
+
+
+<a name="appendix">
+###Appendix
+
+Selected Excerpts from Benson, The Enterprise of Law: Justice Without the State
+
+Recognition. Recognition of law was based on kinship and contractual reciprocities motivated by the benefits of individual rights and private property. Indeed, a "mental codification of abstract rules" existed, so that legal decisions were part of a "going order"(Benson, Citing Popisil, Anthropology of Law: A Comparative Theory). Grammatical phrases or references to specific customs, precedents, or rules were present in all adjudication decisions that Popisil observed. He concluded: "not only does a legal decision solve a specific case, but it also formulates an ideal - a solution intended to be utilized in a similar situation in the future. The ideal component binds all other members of the group who did not particiapte in the case under consideration. The [adjudicator] himself turns to his previous decisions for consistency. In a way, they also bind him. Lawyers speak in such a case about the binding force of precedent."(Id.)
 
 Externalities and Public Goods
 
-The externality argument for public provision of law and order mught be characterized this way, private sector production of law and law enforcement generates external benefits for which private suppliers may be unable to charge. Suppose that a few individuals hire a private security firm to patrol their neighborhood. The patrol deters criminals, both for those who the the firm and those who do not. Thus, there are strong free-rider incentives at work here. If everyone paid for the benefits received, the firm would patrol more often and prevent more crime; but because individuals can reap benefits without paying, they have strong incentives not to enter into the neighborhood group that hired the firm. Even many strong free market advocates have accepted the validity of this argument.
+The externality argument for public provision of law and order might be characterized this way, private sector production of law and law enforcement generates external benefits for which private suppliers may be unable to charge. Suppose that a few individuals hire a private security firm to patrol their neighborhood. The patrol deters criminals, both for those who pay the firm and those who do not. Thus, there are strong free-rider incentives at work here. If everyone paid for the benefits received, the firm would patrol more often and prevent more crime; but because individuals can reap benefits without paying, they have strong incentives not to enter into the neighborhood group that hired the firm. Even many strong free market advocates have accepted the validity of this argument.
 
 If there is a significant free-rider problem, it means that too little private sector protection is purchased and produced. The problem arises because individuals cannot be persuaded to cooperate in buying the good or service in question, not because the private sector would not produce it if producers were fully compensated for the benefits that they provide. Professor Richard Epstein concluded:
 
@@ -230,11 +474,13 @@ This argument has been used to a greater or lesser degree to justify the histori
 
 **A similar rationale has been made to justify the public provision of courts. Perhaps the most widely claimed external benefit of court decisions is the body of law or precedents that court decisions generate. Mabry, et., for instance, wrote that
     
-    "the continuous creation of a collection of decisions, interpretations, opinions, and precedents is the production of a collectively consumed service. ... Since they are available to others at no additional cost, precedents are externalities. Indeed the entire set of law known as common law has developed as an external benefit of past adjudication. While individuals would be willing to pay for the private benefits they obtain from a private court (e.g. dispute resolution, restitution), they would be the only benefits considered. The failure to recognize and capture payment for additional benefit accruing to the community at large implies that suppliers in a private market would be unwilling to provide enough judicial services to maximize the net benefits of adjudication.
+    "the continuous creation of a collection of decisions, interpretations, opinions, and precedents is the production of a collectively consumed service. ... Since they are available to others at no additional cost, precedents are externalities. Indeed the entire set of law known as common law has developed as an external benefit of past adjudication.”
+
+While individuals would be willing to pay for the private benefits they obtain from a private court (e.g. dispute resolution, restitution), they would be the only benefits considered. The failure to recognize and capture payment for additional benefit accruing to the community at large implies that suppliers in a private market would be unwilling to provide enough judicial services to maximize the net benefits of adjudication.
 
 A similar but perhaps even more fundamental externality argument is put forth by even the staunchest supporters of the market economy. F. A. Hayek, for instance, argued that "government becomes indispensible...in order to see that the mechanism which regulates the production of...goods and services is kept in working order...it provides an essential condition for the preservation of...overall order." Clearly defined property rights are critical requirements for the operation of a market system, so some system of defining and then protecting and enforcing property rights is needed before a market economy can develop. Enforcement of property rights, it is suggested, requires coercion, and only the government is widely viewed to have coercive powers. The establishment of laws and a mechanism for their enforcement, therefore, has the beneficial external effect of allowing the market economy to develop and function. Because no private individual who might benefit from laws and their enforcement would be able to charge for all the benefits generated, too few laws and too little enforcement would develop without government. Besides, individuals would not freely grant other individuals the power to coerce.
 
-It could be contended that the existence of nonexclusionary external benefits makes laws and law enforcement "public goods." And they are, given Samuelson's delineation of the domain of public goods: "A public good is one that enters two or more persons' utility. What are we left with? With a knife-edge pole of the private good case, and with all the rest of the world in the public good domain by virtue of involving some consumption externality." As Goldin pointed out, however, the theory of public goods "is dangerous and misleading theory if it suggests to the unwary that government services should be handled as if they were public goods." The efficient provision of goods that generate benefits requires cooperation, but cooperation does not always require government. Whenever external benefits exist, there are tremendous incentives to internalize them. Consequently, voluntary cooperation occurs daily in the private sector. Every market transaction involves cooperation between the buyer and seller, every good or service produced requires the voluntary cooperation of input suppliers, and every contract is a formal agreement to cooperate. A major distinction between government and private sector is the means used to induce cooperation.
+It could be contended that the existence of non-exclusionary external benefits makes laws and law enforcement "public goods." And they are, given Samuelson's delineation of the domain of public goods: "A public good is one that enters two or more persons' utility. What are we left with? With a knife-edge pole of the private good case, and with all the rest of the world in the public good domain by virtue of involving some consumption externality." As Goldin pointed out, however, the theory of public goods "is dangerous and misleading theory if it suggests to the unwary that government services should be handled as if they were public goods." The efficient provision of goods that generate benefits requires cooperation, but cooperation does not always require government. Whenever external benefits exist, there are tremendous incentives to internalize them. Consequently, voluntary cooperation occurs daily in the private sector. Every market transaction involves cooperation between the buyer and seller, every good or service produced requires the voluntary cooperation of input suppliers, and every contract is a formal agreement to cooperate. A major distinction between government and private sector is the means used to induce cooperation.
 
 Courts
 
@@ -271,3 +517,4 @@ Smith predicted that private courts would have to 1. allow citizen access to tri
 
 
 
+
