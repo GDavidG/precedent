@@ -16,43 +16,43 @@ Bootstrapping a million new legal systems, one precedent at a time.
 
 ##Table of Contents
 
-1.[Background & Introduction](#background-&-introduction)
+1. [Background & Introduction](#background-&-introduction)
 
-3.[Proof of Precedent (PoP)](#proof-of-precedent-(PoP))
+2. [Proof of Precedent (PoP)](#proof-of-precedent-(PoP))
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.[Roles](#roles)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. [Roles](#roles)
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c.[Bonding Process](#bonding-process)
-
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d.[Fee Structure](#fee-structure)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. [Bonding Process](#bonding-process)
  
-4.[Consensus](#consensus)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. [Fee Structure](#fee-structure)
+ 
+3. [Consensus](#consensus)
 
-5.[Reward Schedule](#reward-schedule)
+4. [Reward Schedule](#reward-schedule)
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.[Publication Reward](#publication-reward)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. [Publication Reward](#publication-reward)
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b.[Citation Reward](#citation-reward)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. [Citation Reward](#citation-reward)
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.[Precedents as Assets](#precedents-as-assets)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. [Precedents as Assets](#precedents-as-assets)
  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii.[Exchange](#exchange)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. [Exchange](#exchange)
  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii.[Burn-for-Authority](#burn-for-authority)
-  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c.[Supply & Initial Distribution](#supply-&-initial-distribution)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. [Burn-for-Authority](#burn-for-authority)
+   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. [Supply & Initial Distribution](#supply-&-initial-distribution)
  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d.[Demand for PrecedentCoin](#demand-for-precedentcoin)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. [Demand for PrecedentCoin](#demand-for-precedentcoin)
 
-6.[Considerations](#considerations)
+5. [Considerations](#considerations)
 
-7.[Implications & Outcomes](#implications-&-outcomes)
+6. [Implications & Outcomes](#implications-&-outcomes)
 
-8.[Conclusion](#conclusion)
+7. [Conclusion](#conclusion)
 
-9.[Glossary](#glossary)
+8. [Glossary](#glossary)
 
-10.[Appendix](#appendix)
+9. [Appendix](#appendix)
 
 
 
