@@ -1,7 +1,7 @@
 The Precedent Protocol Whitepaper
 ===================================
 
-A Decentralized Autonomous Legal Procedure Organization<br>
+A Decentralized Autonomous Legal Procedure Organization<br><br>
 Incentivizing arbitrators and parties to voluntarily opt for publication of arbitral outcomes and rewarding both arbitrators and parties for their participation in precedential matters.
 
 Bootstrapping a million new legal systems, one precedent at a time.
