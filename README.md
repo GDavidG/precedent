@@ -33,7 +33,13 @@ Bootstrapping a million new legal systems, one precedent at a time.
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.[Publication Reward](#publication-reward)
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b.[Citation Reward](#citation-reward)
-
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.[Precedents as Assets](#precedents-as-assets)
+ 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii.[Exchange](#exchange)
+ 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii.[Burn-for-Authority](#burn-for-authority)
+  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c.[Supply & Initial Distribution](#supply-&-initial-distribution)
  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d.[Demand for PrecedentCoin](#demand-for-precedentcoin)
@@ -44,7 +50,9 @@ Bootstrapping a million new legal systems, one precedent at a time.
 
 8.[Conclusion](#conclusion)
 
-9.[Appendix](#appendix)
+9.[Glossary](#glossary)
+
+10.[Appendix](#appendix)
 
 
 
