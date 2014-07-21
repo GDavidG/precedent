@@ -16,15 +16,11 @@ Bootstrapping a million new legal systems, one precedent at a time.
 
 ##Table of Contents
 
-1.[Background](#background)
-
-2.[Introduction](#introduction)
+1.[Background & Introduction](#background-&-introduction)
 
 3.[Proof of Precedent (PoP)](#proof-of-precedent-(PoP))
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.[Roles](#roles)
-
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b.[Terms](#terms)
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c.[Bonding Process](#bonding-process)
 
@@ -51,62 +47,43 @@ Bootstrapping a million new legal systems, one precedent at a time.
 9.[Appendix](#appendix)
 
 
-<a name="background">
-###Background
 
-<a name="introduction">
-###Introduction
+<a name="background-&-introduction">
+###Background & Introduction
 
-Todays judicial systems lack price discovery for the voluntary publication and citation of judicial outcomes.  Publication and dissemination of judicial outcomes, like many public goods, suffers from the free rider problem: wherein producers of the public good (precedents) are not compensated by those consuming it. Judicial outcomes and their publication have long been primarily the domain of the state; however, innovations in cryptocurrency and blockchain technology now give anyone the ability to fund the publication and citation of precedential matters, thereby generating consistent, transparent, decentralized, and voluntary polycentric common law. 
+Law has been described as “the enterprise of subjecting human conduct to the governance of rules. Unlike most modern theories of law, this view treats law as an activity and regards a legal system as the product of a sustained purposive effort.” 
 
-The Precedent Protocol is strictly concerned with the justiciability of the dispute in question and is wholly agnostic to the justness/rightness of the outcome.
+Todays judicial systems lack price discovery for the voluntary publication and citation of judicial outcomes.  Publication and dissemination of judicial outcomes, like many public goods, suffers from the free rider problem: wherein producers of public goods (precedents) are not compensated by those consuming them. Judicial outcomes and their publication have long been primarily the domain of the state; however, innovations in cryptocurrency and blockchain technology now give anyone the ability to fund the publication and citation of precedential matters, thereby forming the basis for a decentralized, voluntary polycentric legal order. 
 
-The goal of any legal system is to provide for just outcomes and certainty through predictability of relief from injury. Price discovery for polycentric common law precedents makes these goals more attainable than ever before.
-
-A new method of social incentivization
+The Precedent Protocol is strictly concerned with the justiciability of the dispute in question and is wholly agnostic to the justness or fairness of the outcome. Users dictate what it means for a dispute to be justiciable, and can fork the protocol if new standards are deemed preferable.
+ 
+The goal of any legal system is to provide for just outcomes and certainty through  predictability of relief from injury. Incentivizing publication of precedents and imposing a price mechanism for their citation makes this goal more attainable than ever before. 
 
 <a name="proof-of-preceent-(PoP)">
 ###Proof of Precedent (PoP)
 
-Proof of Precedent is the successful demonstration of a justiciable, bona fide dispute, and its subsequent publication for future/possible citation. PrecedentCoins are the incentivization mechanism underlying the Precedent Protocol, rewarding arbitrators and parties for the publication and later citation of outcomes and awards, thus contributing to the development of a body of polycentric common law. As a preliminary matter, a user can take on one of four roles at any given time when using the Precedent Protocol.
+Proof of Precedent is the successful demonstration of a justiciable, bona fide dispute, and its subsequent publication for possible citation in future disputes. PrecedentCoins are the incentivization mechanism underlying the Precedent Protocol, rewarding arbitrators and parties for the publication of precedents, thus contributing to the development of a body of polycentric common law. To amplify the value of publication, the protocol tokenizes published precedents, the value of which is determined by said precedent’s utility, clarity, and persuasiveness. 
+
+As a preliminary matter, a user can take on one of four roles at any given time when using the Precedent Protocol:
 
 <a name="roles">
 ###ROLES
 
 POSSESSOR - An individual who possesses PrecedentCoin without posting a deposit bond.
 
-DEPOSIT BOND - an amount of value committed by an individual, to the Protocol as inaccessible for an identifiable period of time (See Bonding Process below). 
+WITNESS - An individual who has posted a deposit bond and may periodically vote on the justiciability of OPINIONS.
 
-WITNESS - An individual who has posted a deposit bond and votes on the justiciability of OPINIONS.
-
-PARTY - An individual who has posted a deposit bond, who has previously entered into an agreement which is now in dispute and stipulates usage of the Precedent Protocol.
+PARTY - An individual who has posted a deposit bond, who has previously entered into an contract which stipulates the use of the Precedent Protocol and is now in dispute. 
 
 ARBITRATOR - An individual who has posted a deposit bond, and adjudicates a dispute per the Precedent Protocol. 
 
-<a name="terms">
-###TERMS
-
-The following terms inform the means by which Proof of Precedent is arrived at:
-
-OPINION (.txt file) - the outcome of a dispute between PARTIES as decided by an ARBITRATOR. This document will detail the procedures, rules, reasoning and logic employed in deciding the legal question at issue.
-
-REPUTATION - the measure of a witness’ proclivity to vote with simple majorities during WITNESSING EVENTS.  
-
-INFLUENCE - a value determined by a WITNESS’ bond amount, bond timeframe, and REPUTATION, exercised during WITNESSING EVENTS.  INFLUENCE is calculated by the following procedure:
-INFLUENCE = ⅓ * (Bond Amount) + ⅓ * (Bond Timeframe) + ⅓ * REPUTATION
-
-AFFIRMATIVE - The cumulative INFLUENCE voted during the WITNESSING EVENT towards making an OPINION bona fide.
-
-NOT AFFIRMATIVE - The cumulative INFLUENCE voted during the WITNESSING EVENT to determine an OPINION as non-bona fide. 
-
-WITNESSING EVENT - consideration of the OPINION by the randomly selected WITNESSES. Each WITNESS can consider an OPINION either AFFIRMATIVE or NOT AFFIRMATIVE. An INFLUENCE weighted vote of WITNESSES dictates whether an OPINION is AFFIRMATIVE or NOT AFFIRMATIVE. Only OPINIONS voted in the AFFIRMATIVE become DECISIONS. (At present WITNESSING EVENTS are binary choices) 
-
-DECISION (file) - a bona fide dispute and OPINION per the WITNESSING EVENT. Following PUBLICATION the ARBITRATOR receives a PROTOCOL REWARD (see reward schedule).
-
-PUBLICATION - Occurs simultaneously when an OPINION is voted AFFIRMATIVE during the WITNESSING EVENT.
-
 <a name="bonding-process">
 ###Bonding Process
+
+Implementation: 
+Bitcoin Contracts: Deposit Bonds
+Distributed Oracles System for Cryptocurrency Contracts
+Donations as Bonds
 
 A POSSESSOR submits a deposit bond, agreeing that the deposit bond will be released by the protocol at some time in the future (this is a variable within the open source Precedent Protocol and will need extensive real-world testing). The cost of the bond and the time in which value is inaccessible to both the user and the protocol is the primary means through which bad actors are discouraged for generating spurious OPINIONS and DECISIONS.
 
@@ -116,10 +93,7 @@ a. WITNESSES revert to being POSSESSORS in the event that their reputation falls
 
 b. When a WITNESS votes with the majority, their REPUTATION improves and no new deposit bonding requirements are imposed.
 
-Deposit Bonding terms cannot be extended ad hoc. Even in the event of the imposition of additional bonding requirements, the term of the original deposit bond remains intact. 
-
-A system of deposit bonds tied to the WITNESS’ REPUTATIONS ensures that bad actors do not have an incentive to abuse the network.
-See generally: Bitcoin Contracts: Deposit Bonds and Distributed Oracles System for Cryptocurrency Contracts (Oracle mediated-timelock transactions) 
+Deposit Bonding terms cannot be extended ad hoc. Even in the event of the imposition of additional bonding requirements, the term of the original deposit bond remains intact.
 
 The protocol recognizes when a particular pubkey has entered into a deposit bond contract with the protocol. If a user’s reputation begins to wane, the protocol will impose a greater deposit bond requirement for the duration of the prior bond contract, this is referred to as the PENALTY. 
 
@@ -136,15 +110,15 @@ BACur + [ BAMin  * [% P *  ( 5-R ) ] ]<br>
 <a name="fee-structure">
 ###Fee Structure
 
-Minimum fee requirements are instituted to create an incentive compatible system.   PARTIES pay two equal minimum “deposits” to ARBITRATOR and WITNESSES (the fee is equally distributed among WITNESSES). 
+Theory: PARTIES must compensate both ARBITRATORS and WITNESSES to fully decentralize the cost of PoP.  ARBITRATORS depend on WITNESSES to arrive at a determination as to the occurrence of PoP, which triggers the ARBITRATORS’ publication reward.  PARTIES are reimbursed the protocol fees they paid at the outset (as opposed to accepting some larger portion of the publication reward), and they will be owners of the resulting PRECEDENT ASSET.  
 
-WITNESSES keep deposit when CONSENSUS is achieved; the group must arrive at either AFFIRMATIVE or NOT AFFIRMATIVE.  
+Minimum fee requirements are instituted to create an incentive compatible system.   PARTIES pay two equal minimum “deposits” to ARBITRATOR and WITNESSES (ultimately the fee is equally distributed among WITNESSES). 
 
-Arbitrators keep deposit when an OPINION is created.  
+WITNESSES keep deposit when CONSENSUS is achieved; the WITNESSING EVENT must result in either AFFIRMATIVE or NOT AFFIRMATIVE.  
 
-PARTIES are reimbursed their fees in the form of a protocol reward if a DECISION is reached and published.
+Arbitrators maintain possession of the deposits when an OPINION is created, pending justiciability determination at the WITNESSING EVENT.  
 
-Theory:   PARTIES must compensate both ARBITRATORS and WITNESSES to fully decentralize the cost of PoP.  ARBITRATORS need WITNESSES to arrive at a decision to determine whether a PoP occurs, a PoP will lead to the ARBITRATORS’ block reward.  PARTIES need only to be reimbursed their fees (as opposed to accepting some larger portion of the publication reward) because they primarily seek dispute resolution, and they will be compensated with further CITATION REWARDS if their precedent is cited.  In addition, fees will keep incentivization viable after block rewards are exhausted.  
+PARTIES are reimbursed their fees in the form of a protocol reward if Proof of Precedent is satisfied (AFFIRMATIVE, a DECISION is reached and published).
 
 <a name="consensus">
 ###Consensus
