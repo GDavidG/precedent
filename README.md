@@ -277,6 +277,35 @@ As open source software, the Precedent Protocol may be forked at any time by any
 
 We have presented a novel mechanism whereby arbitrators and parties are rewarded for the publication and citation of arbitral decisions. As a low-trust system built atop trustless infrastructures, we have proposed deposit bonding and reputation systems as an attempt to eliminate perverse incentives from the protocol.
 
+<a name="glossary">
+###Glossary
+
+DEPOSIT BOND - an amount of value committed by an individual, to the Protocol as inaccessible for an identifiable period of time (See Bonding Process below). 
+
+OPINION (.txt file) - the outcome of a dispute between PARTIES as decided by an ARBITRATOR. This document will detail the procedures, rules, reasoning and logic employed in deciding the legal question at issue.
+
+REPUTATION - the measure of a witness’ proclivity to vote with simple majorities during WITNESSING EVENTS.  
+
+INFLUENCE - a value determined by a WITNESS’ bond amount, bond duration, and REPUTATION, exercised during WITNESSING EVENTS.  INFLUENCE is calculated by the following procedure:
+INFLUENCE = ⅓ * (Bond Amount) + ⅓ * (Bond Duration) + ⅓ * REPUTATION
+
+AFFIRMATIVE - The cumulative INFLUENCE voted during the WITNESSING EVENT deeming an OPINION justiciable and bona fide.
+
+NOT AFFIRMATIVE - The cumulative INFLUENCE voted during the WITNESSING EVENT deeming an OPINION non-justiciable and not bona fide. 
+
+WITNESSING EVENT - conclusive determination of the justiciability of the OPINION by the randomly selected WITNESSES. Each WITNESS can deem an OPINION either AFFIRMATIVE or NOT AFFIRMATIVE. An INFLUENCE weighted vote of WITNESSES dictates whether an OPINION is AFFIRMATIVE or NOT AFFIRMATIVE. Only OPINIONS voted in the AFFIRMATIVE become DECISIONS. (At present WITNESSING EVENTS are binary choices). 
+
+DECISION (file) - a justiciable and bona fide OPINION resulting from the WITNESSING EVENT. Following PUBLICATION the ARBITRATOR receives a PROTOCOL REWARD (see reward schedule).
+PRECEDENTCOIN - The token used to incentivize ARBITRATORS and PARTIES to publicize arbital outcomes
+
+PUBLICATION REWARD - The PRECEDENTCOINS released by the protocol to ARBITRATORS and PARTIES as a result of an AFFIRMATIVE vote in a WITNESSING EVENT
+
+PRECEDENT ASSET - A set of tokens created upon the submission of an OPINION to the WITNESSING EVENT. The ARBITRATOR and PARTIES agree on the supply and proportional distribution for a given PRECEDENT ASSET prior to the submission of the OPINION to the WITNESSING EVENT. Following an AFFIRMATIVE determination during the WITNESSING EVENT the tokens are distributed to the ARBITRATOR and PARTIES. Following a NOT AFFIRMATIVE determination during the WITNESSING EVENT the tokens are burnt/destroyed.
+
+PRECEDENT EXCHANGE - The mechanism by which PRECEDENT ASSETS are bought and sold. PRECEDENT ASSETS are denominated in PRECEDENTCOIN.
+
+BURN FOR AUTHORITY - The act of an ARBITRATOR burning some amount of a particular PRECEDENT ASSET to effect a citation a prior DECISION.
+
 
 <a name="appendix">
 ###Appendix
