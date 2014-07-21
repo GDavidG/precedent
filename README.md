@@ -194,8 +194,8 @@ ARBITRATORS are rewarded with a number of PrecedentCoins for OPINIONS which meet
 
 PARTIES are rewarded (reimbursed) the minimum fee (denominated in PrecedentCoin) which was required as part of the ARBITRATORS fee. 
 
-<a name="citation-reward">
-###Citation Reward
+<a name="citations">
+###Citations
 
 To further incentivize both parties and arbitrators to be active participants in the protocol, when arbitrators cite old precedents which adhere to the Precedent Protocol, the network compensates the original ARBITRATOR and PARTIES with PrecedentCoins, on a predictable, decaying schedule.
 
@@ -209,6 +209,15 @@ CREWARD for some PARTIES,ARBITRATORS = PoPCur | CN0 → Cur-1 |  CN0 → Cur-1 <
 PubREWARD for some PARTIES, ARBITRATOR = CNCur ; as defined by the protocol and PARTIES returned original fee 
 
 Please refer to Diagram 1 or a depiction of this mechanism.
+
+<a name="precedents-as-assets">
+###Precedents as Assets
+
+<a name="exchange">
+###Exchange
+
+<a name="burn-for-authority">
+###Burn-for-Authority
 
 <a name="supply-&-initial-distribution">
 ###Supply & Initial Distribution
